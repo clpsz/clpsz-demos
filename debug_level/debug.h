@@ -31,3 +31,17 @@ do { \
 #define debug_loud(...) LEVEL_DEBUG(DEBUG_LOUD, __VA_ARGS__)
 
 
+
+
+// for hexdump
+#define HEX_DUMP(buf, len) \
+do { \
+    fprintf(stderr, "%s %d:\n", __FILE__, __LINE__); \
+    _hex_dump(buf, len); \
+} while (0) \
+
+
+// for printf in daemon process
+#define DAEMON_PRINT(fmt, args...) _daemon_printf("%s %d: "fmt"", __FILE__, __LINE__, ##args)
+#define CONSOLE_DEVICE "/dev/tty1"
+
