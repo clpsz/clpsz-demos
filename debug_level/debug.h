@@ -13,7 +13,7 @@
 #define G_DEBUG_LEVEL    DEBUG_WARN
 
 
-#define DEBUG_RAW(...) fprintf(stderr, __VA_ARGS__)
+#define DEBUG_RAW(fmt, ...) fprintf(stderr, "%s %d: "fmt, __FILE__, __LINE__, ##__VA_ARGS__)
 
 
 #define LEVEL_DEBUG(level, ...) \
