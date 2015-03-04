@@ -2,8 +2,10 @@
 #include <string.h>
 #include <unistd.h>
 
-#include "socket.h"
+#include <sys/types.h>
+#include <sys/socket.h>
 
+#include "socket.h"
 
 int main()
 {
@@ -24,6 +26,7 @@ int main()
         lsn_fd = init_listen_server(REQUEST);
         apt_fd = accept_client(lsn_fd);
         ret = read(apt_fd, buf, 124);
+        //ret = recv(apt_fd, buf, 124, 0);
         if (ret > 0)
         {
             buf[ret] = '\0';
@@ -39,6 +42,7 @@ int main()
         if (fd > 0)
         {
             write(fd, "I am child", strlen("I am child.") + 1);
+            //send(fd, "I am child", strlen("I am child.") + 1, 0);
         }
     }
 
