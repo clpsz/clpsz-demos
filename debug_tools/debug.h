@@ -33,6 +33,7 @@ do { \
 
 
 
+void _hex_dump(char* buf, int len);
 // for hexdump
 #define HEX_DUMP(buf, len) \
 do { \
@@ -41,6 +42,7 @@ do { \
 } while (0) \
 
 
+void _daemon_printf(const char *format, ...);
 // for printf in daemon process
 #define DAEMON_PRINT(fmt, args...) _daemon_printf("%s %d: "fmt"", __FILE__, __LINE__, ##args)
 #define CONSOLE_DEVICE "/dev/tty1"
