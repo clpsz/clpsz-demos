@@ -55,9 +55,11 @@ unsigned int hook_out(const struct nf_hook_ops *ops,
     const struct net_device *out,
     int (*okfn)(struct sk_buff *))
 {
-    if (count++ < 1000)
+    if (count++ < 20)
     {
         _DEBUG("get a packet index: %d\n", count);
+        struct ethhdr *mh = eth_hdr(skb); 
+        printk(KERN_EMERG "Source MAC=%x:%x:%x:%x:%x:%x\n",mh->h_source[0],mh->h_source[1],mh->h_source[2],mh->h_source[3],mh->h_source[4],mh->h_source[5]); 
     }
 
     return NF_ACCEPT;
