@@ -7,6 +7,7 @@
 #include <asm/types.h>
 #include <linux/netlink.h>
 #include <linux/skbuff.h>
+#include <linux/version.h>
 
 
 #define _DEBUG(fmt, args...) printk(KERN_EMERG "%s %d: "fmt, __FILE__, __LINE__, ##args)
@@ -18,10 +19,12 @@ pid_t g_pid = -1;
 struct sock *nl_sk = NULL;
 
 
-static void netlink_receive(struct sk_buff *skb);
-struct netlink_kernel_cfg _cfg = {
-    .input = netlink_receive,
+#if LINUX_VERSION_CODE > KERNEL_VERSION(2, 6, 36)
+static void kernel_receive(struct sk_buff *skb);
+struct netlink_kernel_cfg recv_cfg = {
+    .input = kernel_receive,
 };
+#endif
 
 
 void nl_send_to_user(void *buf, size_t buf_len)
@@ -59,7 +62,7 @@ void nl_send_to_user(void *buf, size_t buf_len)
     }
 }
 
-static void netlink_receive(struct sk_buff *skb)
+static void kernel_receive(struct sk_buff *skb)
 {
     struct nlmsghdr *nlh;
     char *data;
@@ -82,7 +85,13 @@ static void netlink_receive(struct sk_buff *skb)
 static int __init netlink_init(void)
 {
     _DEBUG("Entering: %s\n", __FUNCTION__);  
-    nl_sk=netlink_kernel_create(&init_net, NETLINK_USER, &_cfg);  
+#if LINUX_VERSION_CODE > KERNEL_VERSION(2, 6, 36)
+    nl_sk=netlink_kernel_create(&init_net, NETLINK_USER, &recv_cfg);  
+#elif LINUX_VERSION_CODE >= KERNEL_VERSION(2, 6, 32)
+    nl_sk=netlink_kernel_create(&init_net, NETLINK_USER, 0, kernel_receive, NULL, THIS_MODULE);  
+#else
+    nl_sk=netlink_kernel_create(NETLINK_USER, 0, kernel_receive, THIS_MODULE);  
+#endif
     if(!nl_sk)  
     {   
         _DEBUG("Error creating socket.\n");  
