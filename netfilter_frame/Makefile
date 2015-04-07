@@ -17,7 +17,7 @@ clean:
 
 else
 
-obj-m :=hello.o
+obj-m :=netfilter.o
 
 endif
 
