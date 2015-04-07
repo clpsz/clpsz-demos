@@ -112,7 +112,7 @@ void *recv_thread(void *dummy)
 {
     NL_MSG msg_buf;
     struct nlmsghdr *nlh = (struct nlmsghdr*)&msg_buf;
-    size_t addr_len = sizeof(struct sockaddr_nl);
+    socklen_t addr_len = sizeof(struct sockaddr_nl);
     char *data;
     int ret;
     
