@@ -1,5 +1,3 @@
-ifeq ($(KERNELRELEASE),)
-
 KDIR := /lib/modules/$(shell uname -r)/build
 PWD := $(shell pwd)
 
@@ -10,19 +8,14 @@ modules_install:
 	$(MAKE) -C $(KDIR) M=$(PWD) modules_install
 
 clean:
-	rm -rf *.o *.ko .depend .*.cmd *.mod.o *.mod.c \
-	Module.* modules.* .tmp_versions user
-
+	$(MAKE) -C $(KDIR) M=$(PWD) clean
+	rm -f user
 
 .PHONY:modules modules_install clean
 
 FORCE: 
 
-else
-
 obj-m :=netlink_kernel.o
-
-endif
 
 .PHONY: FROCE
 user: FORCE
