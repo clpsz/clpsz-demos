@@ -86,11 +86,11 @@ static int __init netlink_init(void)
 {
     _DEBUG("Entering: %s\n", __FUNCTION__);  
 #if LINUX_VERSION_CODE > KERNEL_VERSION(2, 6, 36)
-    nl_sk=netlink_kernel_create(&init_net, NETLINK_USER, &recv_cfg);  
+    nl_sk = netlink_kernel_create(&init_net, NETLINK_USER, &recv_cfg);  
 #elif LINUX_VERSION_CODE >= KERNEL_VERSION(2, 6, 32)
-    nl_sk=netlink_kernel_create(&init_net, NETLINK_USER, 0, kernel_receive, NULL, THIS_MODULE);  
+    nl_sk = netlink_kernel_create(&init_net, NETLINK_USER, 0, kernel_receive, NULL, THIS_MODULE);  
 #else
-    nl_sk=netlink_kernel_create(NETLINK_USER, 0, kernel_receive, THIS_MODULE);  
+    nl_sk = netlink_kernel_create(NETLINK_USER, 0, kernel_receive, THIS_MODULE);  
 #endif
     if(!nl_sk)  
     {   
