@@ -57,8 +57,8 @@ unsigned int hook_out(const struct nf_hook_ops *ops,
 {
     if (count++ < 20)
     {
-        _DEBUG("get a packet index: %d\n", count);
         struct ethhdr *mh = eth_hdr(skb); 
+        _DEBUG("get a packet index: %d\n", count);
         printk(KERN_EMERG "Source MAC=%x:%x:%x:%x:%x:%x\n",mh->h_source[0],mh->h_source[1],mh->h_source[2],mh->h_source[3],mh->h_source[4],mh->h_source[5]); 
     }
 
