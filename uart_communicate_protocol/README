@@ -1,0 +1,30 @@
+phy:	uartn
+mac:	head(2B) + len(2B) + checksum(1B) + data 
+		@>  data len,big end	xor all other byte
+trans:	-> sn(1B) + method(1B) + args(nB)
+		<- sn(1B) + err(1B) + args(nB)
+		sn:	seq
+		method/err bit7 : 0/1 
+		err: 0: ok; 
+			 1: default error;
+			 2: check sum error; 
+			 3: format error;
+			 4: version not support
+		
+app:	basic method(0x00~0x0f)	//# -> no data or not implement
+			0x00: discover
+				-> proto ver(1B) + dev type(4B) + dev ver(2B) + dev_buflen(2B)
+				<- proto ver(1B) + dev type(4B) + dev ver(2B) + dev_buflen(2B)
+				dev type: type page(1B) + type(1B) + company(2B)
+				dev ver: hardware ver(1B) + software(1B)
+			0x01: query device name, usage, etc. (option)
+				-> #
+				<- info(string)
+			0x02: query device method (option)
+				-> # or method number(0x10~0xff)
+				<- method description(string) or #
+			other: reserve
+		device method(0x10~0x7f)
+			simple frame
+			multiple frame
+				flag(2B) + seq(2B)

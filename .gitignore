@@ -28,3 +28,6 @@
 *.x86_64
 *.hex
 _main
+
+# vim temp file
+.*.swp
