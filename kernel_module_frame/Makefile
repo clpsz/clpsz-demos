@@ -13,5 +13,5 @@ clean:
 .PHONY:modules modules_install clean
 
 obj-m +=hello.o
-hello-objs := hello1.o hello2.o
+hello-objs := main.o hello1.o hello2.o
 
