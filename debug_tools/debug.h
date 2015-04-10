@@ -10,7 +10,7 @@
 
 
 // set upper bound of debug message
-#define G_DEBUG_LEVEL    DEBUG_WARN
+#define G_DEBUG_LEVEL    DEBUG_INFO
 
 
 #define DEBUG_RAW(fmt, ...) fprintf(stderr, "%s %d: "fmt, __FILE__, __LINE__, ##__VA_ARGS__)
@@ -29,6 +29,7 @@ do { \
 #define debug_trace(...) LEVEL_DEBUG(DEBUG_TRACE, __VA_ARGS__)
 #define debug_info(...) LEVEL_DEBUG(DEBUG_INFO, __VA_ARGS__)
 #define debug_loud(...) LEVEL_DEBUG(DEBUG_LOUD, __VA_ARGS__)
+#define debug(...) debug_info(__VA_ARGS__)
 
 
 
