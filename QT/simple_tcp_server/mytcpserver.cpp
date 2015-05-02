@@ -14,5 +14,10 @@ MyTcpServer::MyTcpServer()
 
 void MyTcpServer::newConnection()
 {
-    qDebug() << "new connection";
+    QTcpSocket *socket = server->nextPendingConnection();
+
+    socket->write("hello clpsz");
+    socket->flush();
+    socket->waitForBytesWritten(3000);
+    socket->close();
 }
