@@ -31,3 +31,5 @@ _main
 
 # vim temp file
 .*.swp
+
+*.pro.user
