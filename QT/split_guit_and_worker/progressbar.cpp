@@ -18,6 +18,7 @@ ProgressBar::ProgressBar(QWidget *parent) :
 
 ProgressBar::~ProgressBar()
 {
+    delete timer;
     delete ui;
 }
 
