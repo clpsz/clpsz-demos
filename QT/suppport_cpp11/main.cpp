@@ -71,6 +71,15 @@ void demoLambda()
     }
 }
 
+void demoNullptr()
+{
+    int *p = nullptr;
+    if (p == 0)
+    {
+        qDebug() << "nullptr is 0";
+    }
+}
+
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
@@ -80,6 +89,7 @@ int main(int argc, char *argv[])
     demos.push_back(demoDecltype);
     demos.push_back(demoNewFor);
     demos.push_back(demoLambda);
+    demos.push_back(demoNullptr);
 
     for (void (*demo)() : demos)
     {
