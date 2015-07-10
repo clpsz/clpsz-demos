@@ -9,3 +9,4 @@ this will generate a executable file that read the log file, and print the data 
 
 # ps
 you must compile protobuf first
+chage the library directoy to suite you own condition
