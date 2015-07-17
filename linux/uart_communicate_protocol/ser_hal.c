@@ -16,8 +16,8 @@
 #include "debug.h"
 
 
-#define WRITE_DEV   "/dev/console" // read dev
-#define READ_DEV    "/dev/console" // write dev
+#define WRITE_DEV   "/dev/console" // write dev
+#define READ_DEV    "/dev/console" // read dev
 
 
 uint_8 replied = 0;
