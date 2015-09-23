@@ -6,9 +6,19 @@ using System.Text;
 
 class MyTcpListener
 {
+    public static void writeToFile(string filename, string text)
+    {
+        FileStream fs = new FileStream(filename, FileMode.Create);
+        byte[] bytes = Encoding.UTF8.GetBytes(text);
+
+        fs.Write(bytes, 0, bytes.Length);
+        fs.Flush();
+        fs.Close();
+    }
+
     public static void Main()
     {
-        string url = "http://www.qq.com/";
+        string url = "https://www.baidu.com/";
         var request = (HttpWebRequest)WebRequest.Create(url);
 
         var response = (HttpWebResponse)request.GetResponse();
@@ -16,6 +26,8 @@ class MyTcpListener
         StreamReader sr = new StreamReader(stream);
         string content = sr.ReadToEnd();
 
-        Console.Write(content);
+        //Console.Write(content);
+
+        writeToFile("baidu.html", content);
     }
 }
