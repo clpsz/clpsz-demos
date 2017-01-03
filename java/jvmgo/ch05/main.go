@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"jvmgo/ch05/instructions/base"
 	"jvmgo/ch05/instructions/constants"
+	"jvmgo/ch05/instructions/conversions"
 	"jvmgo/ch05/instructions/loads"
 	"jvmgo/ch05/instructions/math"
 	"jvmgo/ch05/instructions/stack"
