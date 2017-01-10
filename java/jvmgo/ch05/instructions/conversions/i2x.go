@@ -19,35 +19,35 @@ func (self *I2B) Execute(frame *rtda.Frame) {
 	stack.PushInt(bval)
 }
 
-func (self *I2C) name(frame *rtda.Frame) {
+func (self *I2C) Execute(frame *rtda.Frame) {
 	stack := frame.OperandStack()
 	ival := stack.PopInt()
 	cval := int32(uint16(ival))
 	stack.PushInt(cval)
 }
 
-func (self *I2S) name(frame *rtda.Frame) {
+func (self *I2S) Execute(frame *rtda.Frame) {
 	stack := frame.OperandStack()
 	ival := stack.PopInt()
 	sval := int32(int16(ival))
 	stack.PushInt(sval)
 }
 
-func (self *I2L) name(frame *rtda.Frame) {
+func (self *I2L) Execute(frame *rtda.Frame) {
 	stack := frame.OperandStack()
 	ival := stack.PopInt()
 	lval := int64(ival)
 	stack.PushLong(lval)
 }
 
-func (self *I2F) name(frame *rtda.Frame) {
+func (self *I2F) Execute(frame *rtda.Frame) {
 	stack := frame.OperandStack()
 	ival := stack.PopInt()
 	fval := float32(ival)
 	stack.PushFloat(fval)
 }
 
-func (self *I2D) name(frame *rtda.Frame) {
+func (self *I2D) Execute(frame *rtda.Frame) {
 	stack := frame.OperandStack()
 	ival := stack.PopInt()
 	dval := float64(ival)

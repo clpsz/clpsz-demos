@@ -5,7 +5,7 @@ import (
 	"jvmgo/ch05/rtda"
 )
 
-type ACONST_NULLL struct{ base.NoOperandInstruction }
+type ACONST_NULL struct{ base.NoOperandInstruction }
 type DCONST_0 struct{ base.NoOperandInstruction }
 type DCONST_1 struct{ base.NoOperandInstruction }
 type FCONST_0 struct{ base.NoOperandInstruction }
@@ -21,7 +21,7 @@ type ICONST_5 struct{ base.NoOperandInstruction }
 type LCONST_0 struct{ base.NoOperandInstruction }
 type LCONST_1 struct{ base.NoOperandInstruction }
 
-func (self *ACONST_NULLL) Execute(frame *rtda.Frame) {
+func (self *ACONST_NULL) Execute(frame *rtda.Frame) {
 	frame.OperandStack().PushRef(nil)
 }
 
