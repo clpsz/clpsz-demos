@@ -33,3 +33,5 @@ _main
 .*.swp
 
 *.pro.user
+
+node_modules/
