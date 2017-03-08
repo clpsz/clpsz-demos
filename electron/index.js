@@ -2,6 +2,9 @@ var http = require('http');
 var querystring = require('querystring');
 
 
+
+document.getElementById("parent_pay_order_id").value = "PPO20170303000052400555";
+
 clickButton = document.getElementById("click-button");
 
 
@@ -52,7 +55,6 @@ clickButton.addEventListener('click', function ()
         var html = '';
         res.on('data', (chunk) => {
             html += chunk;
-            // console.log(`BODY: ${chunk}`);
         });
         res.on('end', () => {
             console.log(html);
