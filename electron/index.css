@@ -8,3 +8,9 @@
     box-shadow: 0 2px 0 #044D7F;
     top: 2px;
 }
+
+
+#query_result {
+    height: 400px;
+    width: 400px;
+}

@@ -7,10 +7,21 @@ clickButton = document.getElementById("click-button");
 
 clickButton.addEventListener('click', function ()
 {
+    var parentPayOrderId = document.getElementById("parent_pay_order_id").value;
+    var set = parentPayOrderId.substr(-5, 2);
+    var db_seq = parentPayOrderId.substr(-3, 2);
+    var tbl_seq = parentPayOrderId.substr(-1, 1);
+
+    var table = "pay_order_" + set + "_" + db_seq + "_db.t_parent_pay_order_" + tbl_seq;
+    var sql = "select * from " + table + " where fparent_pay_order_id = '" + parentPayOrderId + "'";
+    console.log(sql);
+
     var postData = querystring.stringify({
             'mysql_type': 'PayodrDB',
-            'sql': "select * from pay_order_00_55_db.t_parent_pay_order_5 where fparent_order_id = 'fo20170303004706000555'"
+            'sql': sql
     });
+
+
     var options = {
         hostname: 'zeus.oa.fenqile.com',
         path: '/mysql/sql_exec_api/',
