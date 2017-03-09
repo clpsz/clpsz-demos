@@ -110,38 +110,43 @@ function getPostXjaxResponse(db, tbl, keyName, key) {
 }
 
 
+function mySetTimeout(key, parentPayOrderId) {
+    setTimeout(function () {
+        getPostXjaxResponse("pay_order", "t_parent_pay_order", "Fparent_pay_order_id", parentPayOrderId).then(
+            function (response) {
+                var json = JSON.parse(response);
+                var data = json['data'][0];
+                var res = JSON.stringify(data);
+                var firstpayAmount = data['Ffirstpay_amount'].toString();
+                var loanAmount = data['Floan_amount'].toString();
+                var uid = data['Fuid'].toString();
+                var payWay = data['Fpay_way'].toString();
+                console.log(parentPayOrderId, uid, loanAmount, firstpayAmount);
+
+                document.getElementById("query_result").value = res;
+
+                return getPostXjaxResponse("user_info", "t_user_info", "Fuid", uid);
+            }, function (error) {
+                console.error("请求处理失败");
+            }
+        ).then(function (response) {
+            var json = JSON.parse(response);
+            var data = json['data'][0];
+            var res = JSON.stringify(data);
+
+            curValue = document.getElementById("query_result").value;
+            newValue = curValue + res;
+            document.getElementById("query_result").value = newValue;
+        })
+    }, key * 50)
+}
+
 clickButton = document.getElementById("click-button");
 clickButton.addEventListener('click', function () {
     var list = document.getElementById("parent_pay_order_id_list").value;
     var breakList = list.split(",");
-    parentPayOrderId = breakList[0];
-    document.getElementById("parent_pay_order_id_list").value = breakList.slice(1).join(",");
-
-    getPostXjaxResponse("pay_order", "t_parent_pay_order", "Fparent_pay_order_id", parentPayOrderId).then(
-        function (response) {
-            var json = JSON.parse(response);
-            var data = json['data'][0];
-            var res = JSON.stringify(data);
-            var uid = data['Fuid'].toString();
-            var payWay = data['Fpay_way'].toString();
-
-            console.log(parentPayOrderId, payWay);
-
-
-            document.getElementById("query_result").value = res;
-
-
-            return getPostXjaxResponse("user_info", "t_user_info", "Fuid", uid);
-        }, function (error) {
-            console.error("请求处理失败");
-        }
-    ).then(function (response) {
-        var json = JSON.parse(response);
-        var data = json['data'][0];
-        var res = JSON.stringify(data);
-
-        curValue = document.getElementById("query_result").value;
-        newValue = curValue + res;
-        document.getElementById("query_result").value = newValue;
-    })
+    for (key in breakList) {
+        var parentPayOrderId = breakList[key];
+        mySetTimeout(key, parentPayOrderId)
+    }
 });
