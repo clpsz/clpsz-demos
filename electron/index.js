@@ -11,24 +11,30 @@ if (document.getElementById("parent_pay_order_id_list").value == "") {
 
 
 function preparePostData(mysqlType, db, tbl, keyName, key, shardingBy) {
-    var set, db_seq, tbl_seq;
-    if (shardingBy == "right5") {
-        set = key.substr(-5, 2);
-        db_seq = key.substr(-3, 2);
-        tbl_seq = key.substr(-1, 1);
-    } else if (shardingBy == "uid") {
-        var set = "";
-        if (key >= 10000000) {
-            set = "01";
-        } else {
-            set = "00";
+    var table, sql;
+    if (shardingBy != "noSharding") {
+        var set, db_seq, tbl_seq;
+        if (shardingBy == "right5") {
+            set = key.substr(-5, 2);
+            db_seq = key.substr(-3, 2);
+            tbl_seq = key.substr(-1, 1);
+        } else if (shardingBy == "uid") {
+            var set = "";
+            if (key >= 10000000) {
+                set = "01";
+            } else {
+                set = "00";
+            }
+            db_seq = key.substr(-3, 2);
+            tbl_seq = key.substr(-1, 1);
         }
-        db_seq = key.substr(-3, 2);
-        tbl_seq = key.substr(-1, 1);
-    }
 
-    var table = db + "_" + set + "_" + db_seq + "_db." + tbl + "_" + tbl_seq;
-    var sql = "select * from " + table + " where " + keyName + " = '" + key + "'";
+        table = db + "_" + set + "_" + db_seq + "_db." + tbl + "_" + tbl_seq;
+        sql = "select * from " + table + " where " + keyName + " = '" + key + "'";
+    } else if (shardingBy == "noSharding" ) {
+        table = db + "_db." + tbl;
+        sql = "select * from " + tbl + " where " + keyName + " = '" + key + "'";
+    }
 
     var postData = querystring.stringify({
         'mysql_type': mysqlType,
@@ -100,10 +106,17 @@ function getPostXjaxResponse(db, tbl, keyName, key) {
     } else if (db == "parent_order") {
         mysqlType = 'ParentOrderDB';
         shardingBy = 'right5';
+    } else if (db == "order" && tbl == "t_order_info") {
+        mysqlType = 'FenqileDB';
+        shardingBy = 'right5';
+    } else if (db == "order" && tbl == "t_order_detail") {
+        mysqlType = 'FenqileDB';
+        shardingBy = 'noSharding';
     }
 
 
     postData = preparePostData(mysqlType, db, tbl, keyName, key, shardingBy);
+    console.log(postData);
     options = prepareOptions(postData);
 
     return doGetPostXjaxResponse(postData, options);
@@ -121,22 +134,41 @@ function mySetTimeout(key, parentPayOrderId) {
                 var loanAmount = data['Floan_amount'].toString();
                 var uid = data['Fuid'].toString();
                 var payWay = data['Fpay_way'].toString();
+                var parentOrderId = data['Fparent_order_id'].toString();
+
                 console.log(parentPayOrderId, uid, loanAmount, firstpayAmount);
 
                 document.getElementById("query_result").value = res;
 
-                return getPostXjaxResponse("user_info", "t_user_info", "Fuid", uid);
+                return getPostXjaxResponse("parent_order", "t_parent_order_relation", "Fparent_order_id", parentOrderId);
             }, function (error) {
                 console.error("请求处理失败");
             }
         ).then(function (response) {
             var json = JSON.parse(response);
+            console.log(JSON.stringify(json['data']));
+
             var data = json['data'][0];
             var res = JSON.stringify(data);
+
+            var orderId = data['Forder_id'].toString();
 
             curValue = document.getElementById("query_result").value;
             newValue = curValue + res;
             document.getElementById("query_result").value = newValue;
+
+            return getPostXjaxResponse("order", "t_order_info", "Forder_id", orderId);
+        }).then(function (response) {
+            var json = JSON.parse(response);
+            var data = json['data'][0];
+            var orderId = data['Forder_id'].toString();
+
+            console.log(JSON.stringify(json['data']));
+
+            return getPostXjaxResponse("order", "t_order_detail", "Forder_id", orderId);
+        }).then(function (response) {
+            var json = JSON.parse(response);
+            console.log(JSON.stringify(json['data']));
         })
     }, key * 50)
 }
