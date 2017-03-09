@@ -31,9 +31,9 @@ function preparePostData(mysqlType, db, tbl, keyName, key, shardingBy) {
 
         table = db + "_" + set + "_" + db_seq + "_db." + tbl + "_" + tbl_seq;
         sql = "select * from " + table + " where " + keyName + " = '" + key + "'";
-    } else if (shardingBy == "noSharding" ) {
+    } else if (shardingBy == "noSharding") {
         table = db + "_db." + tbl;
-        sql = "select * from " + tbl + " where " + keyName + " = '" + key + "'";
+        sql = "select * from " + table + " where " + keyName + " = '" + key + "'";
     }
 
     var postData = querystring.stringify({
@@ -116,7 +116,6 @@ function getPostXjaxResponse(db, tbl, keyName, key) {
 
 
     postData = preparePostData(mysqlType, db, tbl, keyName, key, shardingBy);
-    console.log(postData);
     options = prepareOptions(postData);
 
     return doGetPostXjaxResponse(postData, options);
@@ -135,8 +134,13 @@ function mySetTimeout(key, parentPayOrderId) {
                 var uid = data['Fuid'].toString();
                 var payWay = data['Fpay_way'].toString();
                 var parentOrderId = data['Fparent_order_id'].toString();
-
-                console.log(parentPayOrderId, uid, loanAmount, firstpayAmount);
+                console.log(
+                    "parentPayOrderId: ", parentPayOrderId
+                    , "parentOrderId:", parentOrderId
+                    , "payWay:", payWay
+                    , "firstPayAmount:", firstpayAmount
+                    , "loanAmount:", loanAmount
+                );
 
                 document.getElementById("query_result").value = res;
 
@@ -146,8 +150,7 @@ function mySetTimeout(key, parentPayOrderId) {
             }
         ).then(function (response) {
             var json = JSON.parse(response);
-            console.log(JSON.stringify(json['data']));
-
+            console.log('parent order size: ', json['data'].length);
             var data = json['data'][0];
             var res = JSON.stringify(data);
 
@@ -163,14 +166,15 @@ function mySetTimeout(key, parentPayOrderId) {
             var data = json['data'][0];
             var orderId = data['Forder_id'].toString();
 
-            console.log(JSON.stringify(json['data']));
 
             return getPostXjaxResponse("order", "t_order_detail", "Forder_id", orderId);
         }).then(function (response) {
             var json = JSON.parse(response);
-            console.log(JSON.stringify(json['data']));
+            var data = json['data'][0];
+            console.log("first order product info: ", data['Fproduct_info']);
+            console.log();
         })
-    }, key * 50)
+    }, key * 300)
 }
 
 clickButton = document.getElementById("click-button");
