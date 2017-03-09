@@ -3,7 +3,9 @@ var querystring = require('querystring');
 
 
 
-document.getElementById("parent_pay_order_id").value = "PPO20170303000052400555";
+if (document.getElementById("parent_pay_order_id_list").value == "") {
+    document.getElementById("parent_pay_order_id_list").value = "PPO20170303000052400555";
+}
 
 
 
@@ -15,7 +17,12 @@ function preparePostData(mysqlType, db, tbl, keyName, key, shardingBy) {
         db_seq = key.substr(-3, 2);
         tbl_seq = key.substr(-1, 1);
     } else if (shardingBy == "uid") {
-        set = "00";
+        var set = "";
+        if (key >= 10000000) {
+            set = "01";
+        } else {
+            set = "00";
+        }
         db_seq = key.substr(-3, 2);
         tbl_seq = key.substr(-1, 1);
     }
@@ -90,11 +97,13 @@ function getPostXjaxResponse(db, tbl, keyName, key) {
     } else if (db == "user_info") {
         mysqlType = 'UserDB';
         shardingBy = 'uid';
+    } else if (db == "parent_order") {
+        mysqlType = 'ParentOrderDB';
+        shardingBy = 'right5';
     }
 
 
     postData = preparePostData(mysqlType, db, tbl, keyName, key, shardingBy);
-    console.log(postData);
     options = prepareOptions(postData);
 
     return doGetPostXjaxResponse(postData, options);
@@ -103,16 +112,26 @@ function getPostXjaxResponse(db, tbl, keyName, key) {
 
 clickButton = document.getElementById("click-button");
 clickButton.addEventListener('click', function () {
-    getPostXjaxResponse("pay_order", "t_pay_order", "Fparent_pay_order_id", "PPO20170303000052400555").then(
+    var list = document.getElementById("parent_pay_order_id_list").value;
+    var breakList = list.split(",");
+    parentPayOrderId = breakList[0];
+    document.getElementById("parent_pay_order_id_list").value = breakList.slice(1).join(",");
+
+    getPostXjaxResponse("pay_order", "t_parent_pay_order", "Fparent_pay_order_id", parentPayOrderId).then(
         function (response) {
             var json = JSON.parse(response);
             var data = json['data'][0];
             var res = JSON.stringify(data);
+            var uid = data['Fuid'].toString();
+            var payWay = data['Fpay_way'].toString();
+
+            console.log(parentPayOrderId, payWay);
+
 
             document.getElementById("query_result").value = res;
 
 
-            return getPostXjaxResponse("user_info", "t_user_info", "Fuid", "3011555");
+            return getPostXjaxResponse("user_info", "t_user_info", "Fuid", uid);
         }, function (error) {
             console.error("请求处理失败");
         }
@@ -122,7 +141,7 @@ clickButton.addEventListener('click', function () {
         var res = JSON.stringify(data);
 
         curValue = document.getElementById("query_result").value;
-        newValue = curValue +res;
+        newValue = curValue + res;
         document.getElementById("query_result").value = newValue;
     })
 });
