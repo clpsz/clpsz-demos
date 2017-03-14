@@ -354,4 +354,21 @@ public class PayOrder {
     public void setModifyTime(Date modifyTime) {
         this.modifyTime = modifyTime;
     }
+
+    @Override
+    public String toString() {
+        return "PayOrder{" +
+                "payOrderId='" + payOrderId + '\'' +
+                ", parentPayOrderId='" + parentPayOrderId + '\'' +
+                ", uid=" + uid +
+                ", amount=" + amount +
+                ", payWay=" + payWay +
+                ", payType=" + payType +
+                ", payState=" + payState +
+                ", sucTradeId='" + sucTradeId + '\'' +
+                ", version=" + version +
+                ", createTime=" + createTime +
+                ", modifyTime=" + modifyTime +
+                '}';
+    }
 }

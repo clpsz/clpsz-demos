@@ -24,7 +24,7 @@ public class ShardingDaoTest {
 
     @Test
     public void testSelectSharding() {
-        PayOrder result = payOrderMapper.selectByPrimaryKey("CPO20170314222222");
+        PayOrder result = payOrderMapper.selectByPrimaryKey("CPO2017031422200222");
         TestUtil.printResult(result);
     }
 

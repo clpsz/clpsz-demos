@@ -23,9 +23,20 @@ public class UidShardingStrategy {
             return shardByUid(Long.parseLong(uidString));
         }
 
+        String payOrderId = getString(params, "payOrderId");
+        if (!StringUtils.isEmpty(payOrderId)) {
+            return shardByRight5(payOrderId);
+        }
+        String parentPayOrderId = getString(params, "parentPayOrderId");
+        if (!StringUtils.isEmpty(parentPayOrderId)) {
+            return shardByRight5(parentPayOrderId);
+        }
+        String parentOrderId = getString(params, "parentOrderId");
+        if (!StringUtils.isEmpty(parentOrderId)) {
+            return shardByRight5(parentOrderId);
+        }
 
-
-        return null;
+        throw new IllegalArgumentException("入参没有分库分表标识");
     }
 
     private List<String> shardByUid(Long uid) {
@@ -45,6 +56,17 @@ public class UidShardingStrategy {
         String tableNumStr = StringUtils.substring(tableStr, 2, 3);
 
         return Lists.newArrayList(setNumStr, dbNumStr, tableNumStr);
+    }
+
+    private List<String> shardByRight5(String key) {
+        String shardId = StringUtils.substring(key, key.length() - 5, key.length());
+
+
+        String setNumStr = StringUtils.substring(shardId, 0, 2);
+        String dbNumStr = StringUtils.substring(shardId, 2, 4);
+        String tblNumStr = StringUtils.substring(shardId, 4, 5);
+
+        return Lists.newArrayList(setNumStr, dbNumStr, tblNumStr);
     }
 
     private String getString(Map<String, Object> data, String key) {
