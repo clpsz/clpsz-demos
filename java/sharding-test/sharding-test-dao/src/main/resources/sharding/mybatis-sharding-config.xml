@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	<strategy logicTable="t_pay_order" class="com.clpsz.test.sharding.ShardingStrategy"/>
+</configs>

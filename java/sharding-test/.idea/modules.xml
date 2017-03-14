@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/sharding-test.iml" filepath="$PROJECT_DIR$/sharding-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sharding-test-api/sharding-test-api.iml" filepath="$PROJECT_DIR$/sharding-test-api/sharding-test-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sharding-test-dao/sharding-test-dao.iml" filepath="$PROJECT_DIR$/sharding-test-dao/sharding-test-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sharding-test-impl/sharding-test-impl.iml" filepath="$PROJECT_DIR$/sharding-test-impl/sharding-test-impl.iml" />
+    </modules>
+  </component>
+</project>

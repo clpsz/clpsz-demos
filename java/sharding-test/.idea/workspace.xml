@@ -1,0 +1,2753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3ab8bc37-16d1-468b-8fae-4db68233cf8d" name="Default" comment="" />
+    <ignored path="sharding-test.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <ignored path="$PROJECT_DIR$/sharding-test-dao/target/" />
+    <ignored path="$PROJECT_DIR$/sharding-test-api/target/" />
+    <ignored path="$PROJECT_DIR$/sharding-test-impl/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="sharding-test" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="UidShardingStrategy.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sharding-test-impl/src/main/java/com/clpsz/test/sharding/UidShardingStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.22426869">
+              <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/sharding-test-dao/src/test/java/com/clpsz/test/sharding/test/util/TestUtil.java" />
+        <option value="$PROJECT_DIR$/sharding-test-dao/src/test/java/com/clpsz/test/sharding/test/simple/SpringSimpleTest.java" />
+        <option value="$PROJECT_DIR$/sharding-test-dao/src/test/java/com/clpsz/test/sharding/test/example/SpringSimpleTest.java" />
+        <option value="$PROJECT_DIR$/sharding-test-dao/src/test/java/com/clpsz/test/sharding/test/example/SimpleAppConfigTest.java" />
+        <option value="$PROJECT_DIR$/sharding-test-impl/src/main/java/com/fenqile/test/sharding/config/MyBatisConfig.java" />
+        <option value="$PROJECT_DIR$/sharding-test-impl/src/main/resources/spring-application.xml" />
+        <option value="$PROJECT_DIR$/sharding-test-impl/src/main/java/com/clpsz/test/sharding/example/ExampleBean.java" />
+        <option value="$PROJECT_DIR$/sharding-test-api/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/sharding-test-dao/src/test/java/com/clpsz/test/sharding/test/example/SimpleBean.java" />
+        <option value="$PROJECT_DIR$/sharding-test-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/sharding-test-dao/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/sharding-test-impl/src/test/java/com/clpsz/test/sharding/test/dao/SpringApplicationTest.java" />
+        <option value="$PROJECT_DIR$/sharding-test-impl/src/test/java/com/clpsz/test/sharding/test/example/SpringApplicationTest.java" />
+        <option value="$PROJECT_DIR$/sharding-test-dao/src/main/resources/log4j.xml" />
+        <option value="$PROJECT_DIR$/sharding-test-dao/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/sharding-test-dao/src/main/java/com/clpsz/test/single/person/dao/PersonMapper.java" />
+        <option value="$PROJECT_DIR$/sharding-test-dao/src/main/resources/table2db.properties" />
+        <option value="$PROJECT_DIR$/sharding-test-dao/src/main/java/com/clpsz/test/sharding/strategy/UidShardStrategy.java" />
+        <option value="$PROJECT_DIR$/sharding-test-dao/src/main/java/com/clpsz/test/sharding/MySqlSessionTemplate.java" />
+        <option value="$PROJECT_DIR$/sharding-test-impl/src/main/java/com/clpsz/test/sharding/UidShardStrategy.java" />
+        <option value="$PROJECT_DIR$/sharding-test-impl/src/main/java/com/clpsz/test/sharding/ShardingPlugin.java" />
+        <option value="$PROJECT_DIR$/sharding-test-impl/src/test/java/com/clpsz/test/sharding/test/dao/SingleDaoTest.java" />
+        <option value="$PROJECT_DIR$/sharding-test-dao/src/main/resources/mappers/PayOrderMapper.xml" />
+        <option value="$PROJECT_DIR$/sharding-test-impl/src/test/java/com/clpsz/test/sharding/test/dao/ShardingDaoTest.java" />
+        <option value="$PROJECT_DIR$/sharding-test-dao/src/main/resources/sharding/mybatis-sharding-config.xml" />
+        <option value="$PROJECT_DIR$/sharding-test-impl/src/main/java/com/clpsz/test/sharding/sqlparser/SqlParser.java" />
+        <option value="$PROJECT_DIR$/sharding-test-impl/src/main/java/com/clpsz/test/sharding/sqlparser/SelectSqlParser.java" />
+        <option value="$PROJECT_DIR$/sharding-test-impl/src/main/java/com/clpsz/test/sharding/sqlparser/UpdateSqlParser.java" />
+        <option value="$PROJECT_DIR$/sharding-test-impl/src/main/java/com/clpsz/test/sharding/sqlparser/InsertSqlParser.java" />
+        <option value="$PROJECT_DIR$/sharding-test-impl/src/main/java/com/clpsz/test/sharding/sqlparser/DeleteSqlParser.java" />
+        <option value="$PROJECT_DIR$/sharding-test-impl/src/main/java/com/clpsz/test/sharding/SqlParserFactory.java" />
+        <option value="$PROJECT_DIR$/sharding-test-impl/src/main/java/com/clpsz/test/sharding/PluginCommon.java" />
+        <option value="$PROJECT_DIR$/sharding-test-impl/src/main/java/com/clpsz/test/sharding/config/MyBatisConfig.java" />
+        <option value="$PROJECT_DIR$/sharding-test-impl/src/main/java/com/clpsz/test/sharding/ShardPlugin.java" />
+        <option value="$PROJECT_DIR$/sharding-test-impl/pom.xml" />
+        <option value="$PROJECT_DIR$/sharding-test-impl/src/main/java/com/clpsz/test/sharding/UidShardingStrategy.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="H:/Program Files/maven" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1932" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages ProjectPane="false" />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test-impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test-impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clpsz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test-impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clpsz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test-impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test-impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clpsz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test-dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test-dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test-dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test-dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test-dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clpsz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="single" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="person" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test-dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clpsz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharding-test-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.38045976" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fund_manage_java" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="H:\Program Files\nodejs\node.exe" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\repos_java\sharding-test\sharding-test-dao\src\main\resources\sharding" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.clpsz.test.sharding" />
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.clpsz.test.sharding.strategy" />
+      <recent name="com.clpsz.test.sharding.test.dao" />
+      <recent name="com.clpsz.test.single.domain" />
+      <recent name="com.clpsz.test.single.dao" />
+      <recent name="com.clpsz.test.sharding.test.util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\repos_java\sharding-test\sharding-test-dao\src\main\resources\sharding" />
+      <recent name="H:\repos_java\sharding-test\sharding-test-dao\src\main\resources\mappers" />
+      <recent name="H:\repos_java\sharding-test\sharding-test-dao\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ShardingDaoTest.testInsertSharding">
+    <configuration default="false" name="SpringApplicationTest.testSelectSingle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.clpsz.test.sharding.test.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="sharding-test-impl" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.clpsz.test.sharding.test.example" />
+      <option name="MAIN_CLASS_NAME" value="com.clpsz.test.sharding.test.example.SpringApplicationTest" />
+      <option name="METHOD_NAME" value="testSelectSingle" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="SingleDaoTest.testSelectSingle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.clpsz.test.sharding.test.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="sharding-test-impl" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.clpsz.test.sharding.test.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.clpsz.test.sharding.test.dao.SingleDaoTest" />
+      <option name="METHOD_NAME" value="testSelectSingle" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ShardingDaoTest.testSelectSingle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.clpsz.test.sharding.test.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="sharding-test-impl" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.clpsz.test.sharding.test.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.clpsz.test.sharding.test.dao.ShardingDaoTest" />
+      <option name="METHOD_NAME" value="testSelectSingle" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ShardingDaoTest.testInsertSharding" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.clpsz.test.sharding.test.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="sharding-test-impl" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.clpsz.test.sharding.test.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.clpsz.test.sharding.test.dao.ShardingDaoTest" />
+      <option name="METHOD_NAME" value="testInsertSharding" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="UidShardingStrategy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.clpsz.test.sharding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.clpsz.test.sharding.UidShardingStrategy" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="sharding-test-impl" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="sharding-test" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.SpringApplicationTest.testSelectSingle" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SingleDaoTest.testSelectSingle" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ShardingDaoTest.testSelectSingle" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ShardingDaoTest.testInsertSharding" />
+      <item index="4" class="java.lang.String" itemvalue="Application.UidShardingStrategy" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ShardingDaoTest.testInsertSharding" />
+        <item index="1" class="java.lang.String" itemvalue="Application.UidShardingStrategy" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ShardingDaoTest.testSelectSingle" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SingleDaoTest.testSelectSingle" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SpringApplicationTest.testSelectSingle" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ab8bc37-16d1-468b-8fae-4db68233cf8d" name="Default" comment="" />
+      <created>1489118072568</created>
+      <option name="number" value="Default" />
+      <updated>1489118072568</updated>
+      <workItem from="1489118074014" duration="15621000" />
+      <workItem from="1489456741632" duration="18373000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ShardingDaoTest_testInsertSharding - 2017.03.14 at 15h 29m 52s.xml">
+      <configuration name="ShardingDaoTest.testInsertSharding" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShardingDaoTest_testInsertSharding - 2017.03.14 at 15h 34m 44s.xml">
+      <configuration name="ShardingDaoTest.testInsertSharding" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShardingDaoTest_testInsertSharding - 2017.03.14 at 15h 34m 49s.xml">
+      <configuration name="ShardingDaoTest.testInsertSharding" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShardingDaoTest_testInsertSharding - 2017.03.14 at 16h 42m 38s.xml">
+      <configuration name="ShardingDaoTest.testInsertSharding" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShardingDaoTest_testInsertSharding - 2017.03.14 at 16h 43m 48s.xml">
+      <configuration name="ShardingDaoTest.testInsertSharding" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShardingDaoTest_testInsertSharding - 2017.03.14 at 16h 44m 04s.xml">
+      <configuration name="ShardingDaoTest.testInsertSharding" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShardingDaoTest_testInsertSharding - 2017.03.14 at 17h 24m 53s.xml">
+      <configuration name="ShardingDaoTest.testInsertSharding" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShardingDaoTest_testInsertSharding - 2017.03.14 at 17h 25m 08s.xml">
+      <configuration name="ShardingDaoTest.testInsertSharding" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShardingDaoTest_testInsertSharding - 2017.03.14 at 17h 41m 33s.xml">
+      <configuration name="ShardingDaoTest.testInsertSharding" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShardingDaoTest_testInsertSharding - 2017.03.14 at 17h 43m 11s.xml">
+      <configuration name="ShardingDaoTest.testInsertSharding" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="33994000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24412394" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5487013" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2451923" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41883117" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42965367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sharding-test-impl/src/main/java/com/clpsz/test/sharding/ShardPlugin.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/sharding-test-impl/src/test/java/com/clpsz/test/sharding/test/dao/ShardingDaoTest.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="10" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sharding-test.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-test-impl/src/main/resources/spring-application.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23232323">
+          <caret line="9" column="65" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
+          <folding>
+            <marker date="1489401241880" expanded="true" signature="97:682" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-test-impl/src/main/java/com/clpsz/test/sharding/config/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12459372">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <marker date="1489400918067" expanded="true" signature="41:82" placeholder="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-test-impl/src/main/java/com/clpsz/test/sharding/example/ExampleBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24918744">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <marker date="1489401538549" expanded="true" signature="92:133" placeholder="/**...*/" />
+            <marker date="1489401538549" expanded="true" signature="205:216" placeholder=" { " />
+            <marker date="1489401538549" expanded="true" signature="238:244" placeholder=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-test-impl/src/test/java/com/clpsz/test/sharding/test/util/TestUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32394367">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <marker date="1489398958597" expanded="true" signature="44:84" placeholder="/**...*/" />
+            <marker date="1489398958597" expanded="true" signature="159:407" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.3.0/mybatis-3.3.0.jar!/org/apache/ibatis/session/SqlSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15418994">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <marker date="1468311309175" expanded="false" signature="0:104" placeholder="/.../" />
+            <marker date="1468311309175" expanded="false" signature="149:427" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.1/mybatis-spring-1.3.1.jar!/org/mybatis/spring/SqlSessionTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.69385475">
+          <caret line="74" column="47" selection-start-line="74" selection-start-column="47" selection-end-line="74" selection-end-column="47" />
+          <folding>
+            <marker date="1489400449514" expanded="false" signature="0:104" placeholder="/.../" />
+            <marker date="1489400449514" expanded="false" signature="142:1113" placeholder="..." />
+            <marker date="1489400449514" expanded="true" signature="1471:1574" placeholder="{...}" />
+            <marker date="1489400449514" expanded="true" signature="1670:1833" placeholder="{...}" />
+            <marker date="1489400449514" expanded="true" signature="1981:2498" placeholder="{...}" />
+            <marker date="1489400449514" expanded="false" signature="2551:2562" placeholder=" { " />
+            <marker date="1489400449514" expanded="false" signature="2592:2598" placeholder=" }" />
+            <marker date="1489400449514" expanded="false" signature="2641:2652" placeholder=" { " />
+            <marker date="1489400449514" expanded="false" signature="2677:2683" placeholder=" }" />
+            <marker date="1489400449514" expanded="false" signature="2762:2773" placeholder=" { " />
+            <marker date="1489400449514" expanded="false" signature="2805:2811" placeholder=" }" />
+            <marker date="1489400449514" expanded="false" signature="2857:2868" placeholder=" { " />
+            <marker date="1489400449514" expanded="false" signature="2917:2923" placeholder=" }" />
+            <marker date="1489400449514" expanded="true" signature="2988:3064" placeholder="{...}" />
+            <marker date="1489400449514" expanded="true" signature="3137:3210" placeholder="{...}" />
+            <marker date="1489400449514" expanded="true" signature="3301:3385" placeholder="{...}" />
+            <marker date="1489400449514" expanded="true" signature="3497:3592" placeholder="{...}" />
+            <marker date="1489400449514" expanded="false" signature="3649:3660" placeholder=" { " />
+            <marker date="1489400449514" expanded="false" signature="3712:3718" placeholder=" }" />
+            <marker date="1489400449514" expanded="true" signature="3794:3873" placeholder="{...}" />
+            <marker date="1489400449514" expanded="true" signature="3970:4060" placeholder="{...}" />
+            <marker date="1489400449514" expanded="false" signature="4113:4124" placeholder=" { " />
+            <marker date="1489400449514" expanded="false" signature="4174:4180" placeholder=" }" />
+            <marker date="1489400449514" expanded="true" signature="4252:4329" placeholder="{...}" />
+            <marker date="1489400449514" expanded="true" signature="4422:4510" placeholder="{...}" />
+            <marker date="1489400449514" expanded="false" signature="4575:4586" placeholder=" { " />
+            <marker date="1489400449514" expanded="false" signature="4634:4640" placeholder=" }" />
+            <marker date="1489400449514" expanded="true" signature="4724:4799" placeholder="{...}" />
+            <marker date="1489400449514" expanded="true" signature="4904:4990" placeholder="{...}" />
+            <marker date="1489400449514" expanded="false" signature="5031:5042" placeholder=" { " />
+            <marker date="1489400449514" expanded="false" signature="5088:5094" placeholder=" }" />
+            <marker date="1489400449514" expanded="false" signature="5153:5164" placeholder=" { " />
+            <marker date="1489400449514" expanded="false" signature="5221:5227" placeholder=" }" />
+            <marker date="1489400449514" expanded="false" signature="5268:5279" placeholder=" { " />
+            <marker date="1489400449514" expanded="false" signature="5325:5331" placeholder=" }" />
+            <marker date="1489400449514" expanded="false" signature="5390:5401" placeholder=" { " />
+            <marker date="1489400449514" expanded="false" signature="5458:5464" placeholder=" }" />
+            <marker date="1489400449514" expanded="false" signature="5505:5516" placeholder=" { " />
+            <marker date="1489400449514" expanded="false" signature="5562:5568" placeholder=" }" />
+            <marker date="1489400449514" expanded="false" signature="5627:5638" placeholder=" { " />
+            <marker date="1489400449514" expanded="false" signature="5695:5701" placeholder=" }" />
+            <marker date="1489400449514" expanded="false" signature="5744:5755" placeholder=" { " />
+            <marker date="1489400449514" expanded="false" signature="5808:5814" placeholder=" }" />
+            <marker date="1489400449514" expanded="true" signature="5841:5962" placeholder="{...}" />
+            <marker date="1489400449514" expanded="true" signature="6002:6123" placeholder="{...}" />
+            <marker date="1489400449514" expanded="true" signature="6152:6275" placeholder="{...}" />
+            <marker date="1489400449514" expanded="true" signature="6317:6440" placeholder="{...}" />
+            <marker date="1489400449514" expanded="true" signature="6466:6586" placeholder="{...}" />
+            <marker date="1489400449514" expanded="false" signature="6616:6627" placeholder=" { " />
+            <marker date="1489400449514" expanded="false" signature="6661:6667" placeholder=" }" />
+            <marker date="1489400449514" expanded="false" signature="6712:6723" placeholder=" { " />
+            <marker date="1489400449514" expanded="false" signature="6772:6778" placeholder=" }" />
+            <marker date="1489400449514" expanded="false" signature="6817:6828" placeholder=" { " />
+            <marker date="1489400449514" expanded="false" signature="6872:6878" placeholder=" }" />
+            <marker date="1489400449514" expanded="false" signature="6926:6937" placeholder=" { " />
+            <marker date="1489400449514" expanded="false" signature="6983:6989" placeholder=" }" />
+            <marker date="1489400449514" expanded="true" signature="7034:7041" placeholder="{...}" />
+            <marker date="1489400449514" expanded="true" signature="7112:8738" placeholder="{...}" />
+            <marker date="1489400449514" expanded="true" signature="7154:7165" placeholder="{...}" />
+            <marker date="1489400449514" expanded="true" signature="7257:8732" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.3.0/mybatis-3.3.0.jar!/org/apache/ibatis/datasource/pooled/PooledDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15418994">
+          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+          <folding>
+            <marker date="1468311309175" expanded="false" signature="0:104" placeholder="/.../" />
+            <marker date="1468311309175" expanded="false" signature="159:752" placeholder="..." />
+            <marker date="1468311309175" expanded="false" signature="1420:1431" placeholder=" { " />
+            <marker date="1468311309175" expanded="false" signature="1474:1480" placeholder=" }" />
+            <marker date="1468311309175" expanded="false" signature="1540:1551" placeholder=" { " />
+            <marker date="1468311309175" expanded="false" signature="1580:1586" placeholder=" }" />
+            <marker date="1468311309175" expanded="true" signature="1677:1930" placeholder="{...}" />
+            <marker date="1468311309175" expanded="true" signature="2016:2267" placeholder="{...}" />
+            <marker date="1468311309175" expanded="true" signature="2389:2661" placeholder="{...}" />
+            <marker date="1468311309175" expanded="true" signature="2778:3048" placeholder="{...}" />
+            <marker date="1468311309175" expanded="true" signature="3108:3233" placeholder="{...}" />
+            <marker date="1468311309175" expanded="true" signature="3325:3408" placeholder="{...}" />
+            <marker date="1468311309175" expanded="true" signature="3480:3540" placeholder="{...}" />
+            <marker date="1468311309175" expanded="true" signature="3595:3650" placeholder="{...}" />
+            <marker date="1468311309175" expanded="true" signature="3724:3778" placeholder="{...}" />
+            <marker date="1468311309175" expanded="true" signature="3838:3890" placeholder="{...}" />
+            <marker date="1468311309175" expanded="true" signature="3933:4013" placeholder="{...}" />
+            <marker date="1468311309175" expanded="true" signature="4050:4124" placeholder="{...}" />
+            <marker date="1468311309175" expanded="true" signature="4171:4255" placeholder="{...}" />
+            <marker date="1468311309175" expanded="true" signature="4302:4386" placeholder="{...}" />
+            <marker date="1468311309175" expanded="true" signature="4452:4564" placeholder="{...}" />
+            <marker date="1468311309175" expanded="true" signature="4660:4792" placeholder="{...}" />
+            <marker date="1468311309175" expanded="true" signature="4854:4949" placeholder="{...}" />
+            <marker date="1468311309175" expanded="true" signature="5033:5144" placeholder="{...}" />
+            <marker date="1468311309175" expanded="true" signature="5224:5331" placeholder="{...}" />
+            <marker date="1468311309175" expanded="true" signature="5405:5506" placeholder="{...}" />
+            <marker date="1468311309175" expanded="true" signature="5562:5645" placeholder="{...}" />
+            <marker date="1468311309175" expanded="true" signature="5702:5783" placeholder="{...}" />
+            <marker date="1468311309175" expanded="true" signature="5845:5930" placeholder="{...}" />
+            <marker date="1468311309175" expanded="true" signature="5999:6095" placeholder="{...}" />
+            <marker date="1468311309175" expanded="false" signature="6126:6137" placeholder=" { " />
+            <marker date="1468311309175" expanded="false" signature="6172:6178" placeholder=" }" />
+            <marker date="1468311309175" expanded="false" signature="6206:6217" placeholder=" { " />
+            <marker date="1468311309175" expanded="false" signature="6249:6255" placeholder=" }" />
+            <marker date="1468311309175" expanded="false" signature="6288:6299" placeholder=" { " />
+            <marker date="1468311309175" expanded="false" signature="6336:6342" placeholder=" }" />
+            <marker date="1468311309175" expanded="false" signature="6375:6386" placeholder=" { " />
+            <marker date="1468311309175" expanded="false" signature="6423:6429" placeholder=" }" />
+            <marker date="1468311309175" expanded="false" signature="6464:6475" placeholder=" { " />
+            <marker date="1468311309175" expanded="false" signature="6528:6534" placeholder=" }" />
+            <marker date="1468311309175" expanded="true" signature="6593:6670" placeholder="{...}" />
+            <marker date="1468311309175" expanded="false" signature="6715:6726" placeholder=" { " />
+            <marker date="1468311309175" expanded="false" signature="6771:6777" placeholder=" }" />
+            <marker date="1468311309175" expanded="false" signature="6827:6838" placeholder=" { " />
+            <marker date="1468311309175" expanded="false" signature="6879:6885" placeholder=" }" />
+            <marker date="1468311309175" expanded="false" signature="6933:6944" placeholder=" { " />
+            <marker date="1468311309175" expanded="false" signature="6983:6989" placeholder=" }" />
+            <marker date="1468311309175" expanded="false" signature="7034:7045" placeholder=" { " />
+            <marker date="1468311309175" expanded="false" signature="7081:7087" placeholder=" }" />
+            <marker date="1468311309175" expanded="false" signature="7123:7134" placeholder=" { " />
+            <marker date="1468311309175" expanded="false" signature="7161:7167" placeholder=" }" />
+            <marker date="1468311309175" expanded="false" signature="7205:7216" placeholder=" { " />
+            <marker date="1468311309175" expanded="false" signature="7242:7248" placeholder=" }" />
+            <marker date="1468311309175" expanded="false" signature="7288:7299" placeholder=" { " />
+            <marker date="1468311309175" expanded="false" signature="7327:7333" placeholder=" }" />
+            <marker date="1468311309175" expanded="false" signature="7384:7395" placeholder=" { " />
+            <marker date="1468311309175" expanded="false" signature="7437:7443" placeholder=" }" />
+            <marker date="1468311309175" expanded="true" signature="7477:8996" placeholder="{...}" />
+            <marker date="1468311309175" expanded="false" signature="9033:9044" placeholder=" { " />
+            <marker date="1468311309175" expanded="false" signature="9062:9068" placeholder=" }" />
+            <marker date="1468311309175" expanded="true" signature="9159:9226" placeholder="{...}" />
+            <marker date="1468311309175" expanded="true" signature="9305:11260" placeholder="{...}" />
+            <marker date="1468311309175" expanded="true" signature="11359:16392" placeholder="{...}" />
+            <marker date="1468311309175" expanded="true" signature="16454:18197" placeholder="{...}" />
+            <marker date="1468311309175" expanded="true" signature="18262:18565" placeholder="{...}" />
+            <marker date="1468311309175" expanded="true" signature="18614:18677" placeholder="{...}" />
+            <marker date="1468311309175" expanded="true" signature="18739:18828" placeholder="{...}" />
+            <marker date="1468311309175" expanded="true" signature="18898:18927" placeholder="{...}" />
+            <marker date="1468311309175" expanded="false" signature="18964:18975" placeholder=" { " />
+            <marker date="1468311309175" expanded="false" signature="19009:19015" placeholder=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-test.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3488624">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46464646">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <marker date="1489456757606" expanded="true" signature="89:615" placeholder="..." />
+            <marker date="1489456757606" expanded="true" signature="345:490" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-test-dao/src/test/java/com/clpsz/test/sharding/test/example/SimpleBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11057692">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <marker date="1489457038059" expanded="true" signature="48:89" placeholder="/**...*/" />
+            <marker date="1489457038059" expanded="false" signature="150:161" placeholder=" { " />
+            <marker date="1489457038059" expanded="false" signature="210:216" placeholder=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.3.0/mybatis-3.3.0.jar!/org/apache/ibatis/type/TypeAliasRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15418994">
+          <caret line="98" column="52" selection-start-line="98" selection-start-column="52" selection-end-line="98" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-test-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23232323">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding>
+            <marker date="1489456197467" expanded="true" signature="89:511" placeholder="..." />
+            <marker date="1489456197467" expanded="true" signature="273:411" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-test-dao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3613917">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <marker date="1489457576837" expanded="true" signature="89:1383" placeholder="..." />
+            <marker date="1489457576837" expanded="true" signature="273:411" placeholder="..." />
+            <marker date="1489457576837" expanded="true" signature="518:706" placeholder="..." />
+            <marker date="1489457576837" expanded="true" signature="539:686" placeholder="..." />
+            <marker date="1489457576837" expanded="true" signature="719:1371" placeholder="..." />
+            <marker date="1489457576837" expanded="true" signature="739:898" placeholder="..." />
+            <marker date="1489457576837" expanded="true" signature="762:877" placeholder="..." />
+            <marker date="1489457576837" expanded="true" signature="969:1358" placeholder="..." />
+            <marker date="1489457576837" expanded="true" signature="990:1339" placeholder="..." />
+            <marker date="1489457576837" expanded="true" signature="1192:1317" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-test-dao/src/main/resources/generatorConfig_pay_order.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1489122524054" expanded="true" signature="239:2216" placeholder="..." />
+            <marker date="1489122524054" expanded="true" signature="450:2190" placeholder="..." />
+            <marker date="1489122524054" expanded="true" signature="477:679" placeholder="..." />
+            <marker date="1489122524054" expanded="true" signature="772:943" placeholder="..." />
+            <marker date="1489122524054" expanded="true" signature="971:1062" placeholder="..." />
+            <marker date="1489122524054" expanded="true" signature="1152:1352" placeholder="..." />
+            <marker date="1489122524054" expanded="true" signature="1433:1571" placeholder="..." />
+            <marker date="1489122524054" expanded="true" signature="1647:1822" placeholder="..." />
+            <marker date="1489122524054" expanded="true" signature="1893:2174" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-test-dao/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3097643">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+          <folding>
+            <marker date="1489460006609" expanded="true" signature="239:2231" placeholder="..." />
+            <marker date="1489460006609" expanded="true" signature="450:2205" placeholder="..." />
+            <marker date="1489460006609" expanded="true" signature="477:679" placeholder="..." />
+            <marker date="1489460006609" expanded="true" signature="772:929" placeholder="..." />
+            <marker date="1489460006609" expanded="true" signature="957:1048" placeholder="..." />
+            <marker date="1489460006609" expanded="true" signature="1157:1357" placeholder="..." />
+            <marker date="1489460006609" expanded="true" signature="1438:1576" placeholder="..." />
+            <marker date="1489460006609" expanded="true" signature="1652:1846" placeholder="..." />
+            <marker date="1489460006609" expanded="true" signature="1908:2189" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-test-dao/src/main/java/com/clpsz/test/single/person/domain/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1489460006582" expanded="true" signature="72:230" placeholder="/**...*/" />
+            <marker date="1489460006582" expanded="true" signature="261:418" placeholder="/**...*/" />
+            <marker date="1489460006582" expanded="true" signature="449:662" placeholder="/**...*/" />
+            <marker date="1489460006582" expanded="false" signature="690:701" placeholder=" { " />
+            <marker date="1489460006582" expanded="false" signature="713:719" placeholder=" }" />
+            <marker date="1489460006582" expanded="true" signature="725:940" placeholder="/**...*/" />
+            <marker date="1489460006582" expanded="false" signature="977:988" placeholder=" { " />
+            <marker date="1489460006582" expanded="false" signature="1034:1040" placeholder=" }" />
+            <marker date="1489460006582" expanded="true" signature="1046:1257" placeholder="/**...*/" />
+            <marker date="1489460006582" expanded="false" signature="1285:1296" placeholder=" { " />
+            <marker date="1489460006582" expanded="false" signature="1307:1313" placeholder=" }" />
+            <marker date="1489460006582" expanded="true" signature="1319:1531" placeholder="/**...*/" />
+            <marker date="1489460006582" expanded="false" signature="1567:1578" placeholder=" { " />
+            <marker date="1489460006582" expanded="false" signature="1593:1599" placeholder=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.1/mybatis-spring-1.3.1.jar!/org/mybatis/spring/SqlSessionFactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4368715">
+          <caret line="125" column="20" selection-start-line="125" selection-start-column="20" selection-end-line="125" selection-end-column="20" />
+          <folding>
+            <marker date="1489400449514" expanded="false" signature="0:104" placeholder="/.../" />
+            <marker date="1489400449514" expanded="false" signature="142:1749" placeholder="..." />
+            <marker date="1489400449514" expanded="true" signature="2960:2967" placeholder="{...}" />
+            <marker date="1489400449514" expanded="false" signature="3030:3041" placeholder=" { " />
+            <marker date="1489400449514" expanded="false" signature="3076:3082" placeholder=" }" />
+            <marker date="1489400449514" expanded="true" signature="3167:3232" placeholder="{...}" />
+            <marker date="1489400449514" expanded="false" signature="3287:3298" placeholder=" { " />
+            <marker date="1489400449514" expanded="false" signature="3329:3335" placeholder=" }" />
+            <marker date="1489400449514" expanded="true" signature="3414:3475" placeholder="{...}" />
+            <marker date="1489400449514" expanded="false" signature="3517:3528" placeholder=" { " />
+            <marker date="1489400449514" expanded="false" signature="3544:3550" placeholder=" }" />
+            <marker date="1489400449514" expanded="false" signature="3600:3611" placeholder=" { " />
+            <marker date="1489400449514" expanded="false" signature="3626:3632" placeholder=" }" />
+            <marker date="1489400449514" expanded="false" signature="3661:3672" placeholder=" { " />
+            <marker date="1489400449514" expanded="false" signature="3690:3696" placeholder=" }" />
+            <marker date="1489400449514" expanded="false" signature="3735:3746" placeholder=" { " />
+            <marker date="1489400449514" expanded="false" signature="3765:3771" placeholder=" }" />
+            <marker date="1489400449514" expanded="false" signature="3822:3833" placeholder=" { " />
+            <marker date="1489400449514" expanded="false" signature="3856:3862" placeholder=" }" />
+            <marker date="1489400449514" expanded="true" signature="3928:3939" placeholder=" { " />
+            <marker date="1489400449514" expanded="true" signature="3984:3990" placeholder=" }" />
+            <marker date="1489400449514" expanded="true" signature="4063:4128" placeholder="{...}" />
+            <marker date="1489400449514" expanded="false" signature="4196:4207" placeholder=" { " />
+            <marker date="1489400449514" expanded="false" signature="4254:4260" placeholder=" }" />
+            <marker date="1489400449514" expanded="false" signature="4324:4335" placeholder=" { " />
+            <marker date="1489400449514" expanded="false" signature="4368:4374" placeholder=" }" />
+            <marker date="1489400449514" expanded="false" signature="4430:4441" placeholder=" { " />
+            <marker date="1489400449514" expanded="false" signature="4472:4478" placeholder=" }" />
+            <marker date="1489400449514" expanded="false" signature="4525:4536" placeholder=" { " />
+            <marker date="1489400449514" expanded="false" signature="4561:4567" placeholder=" }" />
+            <marker date="1489400449514" expanded="false" signature="4627:4638" placeholder=" { " />
+            <marker date="1489400449514" expanded="false" signature="4675:4681" placeholder=" }" />
+            <marker date="1489400449514" expanded="false" signature="4744:4755" placeholder=" { " />
+            <marker date="1489400449514" expanded="false" signature="4790:4796" placeholder=" }" />
+            <marker date="1489400449514" expanded="false" signature="4860:4871" placeholder=" { " />
+            <marker date="1489400449514" expanded="false" signature="4910:4916" placeholder=" }" />
+            <marker date="1489400449514" expanded="true" signature="5001:5076" placeholder="{...}" />
+            <marker date="1489400449514" expanded="true" signature="5131:5375" placeholder="{...}" />
+            <marker date="1489400449514" expanded="true" signature="5472:5545" placeholder="{...}" />
+            <marker date="1489400449514" expanded="true" signature="5624:5685" placeholder="{...}" />
+            <marker date="1489400449514" expanded="false" signature="5737:5748" placeholder=" { " />
+            <marker date="1489400449514" expanded="false" signature="5779:5785" placeholder=" }" />
+            <marker date="1489400449514" expanded="true" signature="5841:6327" placeholder="{...}" />
+            <marker date="1489400449514" expanded="true" signature="6405:12968" placeholder="{...}" />
+            <marker date="1489400449514" expanded="true" signature="13028:13169" placeholder="{...}" />
+            <marker date="1489400449514" expanded="true" signature="13233:13345" placeholder="{...}" />
+            <marker date="1489400449514" expanded="false" signature="13379:13390" placeholder=" { " />
+            <marker date="1489400449514" expanded="false" signature="13402:13408" placeholder=" }" />
+            <marker date="1489400449514" expanded="true" signature="13469:13638" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-test-dao/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07475623">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-test-dao/src/main/java/com/clpsz/test/single/person/dao/PersonMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49837488">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <marker date="1489460006589" expanded="true" signature="131:285" placeholder="/**...*/" />
+            <marker date="1489460006589" expanded="true" signature="322:476" placeholder="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-test-dao/src/main/resources/sharding/table2db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-test-impl/src/main/java/com/clpsz/test/sharding/MySqlSessionTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09967497">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <marker date="1489469305940" expanded="false" signature="41:968" placeholder="..." />
+            <marker date="1489469305940" expanded="true" signature="1449:1625" placeholder="{...}" />
+            <marker date="1489469305940" expanded="true" signature="1696:1799" placeholder="{...}" />
+            <marker date="1489469305940" expanded="true" signature="1897:2060" placeholder="{...}" />
+            <marker date="1489469305940" expanded="true" signature="2210:2747" placeholder="{...}" />
+            <marker date="1489469305940" expanded="false" signature="2800:2811" placeholder=" { " />
+            <marker date="1489469305940" expanded="false" signature="2843:2849" placeholder=" }" />
+            <marker date="1489469305940" expanded="false" signature="2894:2905" placeholder=" { " />
+            <marker date="1489469305940" expanded="false" signature="2959:2965" placeholder=" }" />
+            <marker date="1489469305940" expanded="false" signature="3008:3019" placeholder=" { " />
+            <marker date="1489469305940" expanded="false" signature="3044:3050" placeholder=" }" />
+            <marker date="1489469305940" expanded="false" signature="3129:3140" placeholder=" { " />
+            <marker date="1489469305940" expanded="false" signature="3172:3178" placeholder=" }" />
+            <marker date="1489469305940" expanded="false" signature="3224:3235" placeholder=" { " />
+            <marker date="1489469305940" expanded="false" signature="3284:3290" placeholder=" }" />
+            <marker date="1489469305940" expanded="true" signature="3355:3431" placeholder="{...}" />
+            <marker date="1489469305940" expanded="true" signature="3504:3577" placeholder="{...}" />
+            <marker date="1489469305940" expanded="true" signature="3668:3752" placeholder="{...}" />
+            <marker date="1489469305940" expanded="true" signature="3864:3959" placeholder="{...}" />
+            <marker date="1489469305940" expanded="false" signature="4012:4023" placeholder=" { " />
+            <marker date="1489469305940" expanded="false" signature="4073:4079" placeholder=" }" />
+            <marker date="1489469305940" expanded="true" signature="4151:4228" placeholder="{...}" />
+            <marker date="1489469305940" expanded="true" signature="4321:4409" placeholder="{...}" />
+            <marker date="1489469305940" expanded="false" signature="4474:4485" placeholder=" { " />
+            <marker date="1489469305940" expanded="false" signature="4533:4539" placeholder=" }" />
+            <marker date="1489469305940" expanded="true" signature="4623:4698" placeholder="{...}" />
+            <marker date="1489469305940" expanded="true" signature="4803:4889" placeholder="{...}" />
+            <marker date="1489469305940" expanded="false" signature="4930:4941" placeholder=" { " />
+            <marker date="1489469305940" expanded="false" signature="4987:4993" placeholder=" }" />
+            <marker date="1489469305940" expanded="false" signature="5052:5063" placeholder=" { " />
+            <marker date="1489469305940" expanded="false" signature="5120:5126" placeholder=" }" />
+            <marker date="1489469305940" expanded="false" signature="5167:5178" placeholder=" { " />
+            <marker date="1489469305940" expanded="false" signature="5224:5230" placeholder=" }" />
+            <marker date="1489469305940" expanded="false" signature="5289:5300" placeholder=" { " />
+            <marker date="1489469305940" expanded="false" signature="5357:5363" placeholder=" }" />
+            <marker date="1489469305940" expanded="false" signature="5404:5415" placeholder=" { " />
+            <marker date="1489469305940" expanded="false" signature="5461:5467" placeholder=" }" />
+            <marker date="1489469305940" expanded="false" signature="5526:5537" placeholder=" { " />
+            <marker date="1489469305940" expanded="false" signature="5594:5600" placeholder=" }" />
+            <marker date="1489469305940" expanded="false" signature="5643:5654" placeholder=" { " />
+            <marker date="1489469305940" expanded="false" signature="5707:5713" placeholder=" }" />
+            <marker date="1489469305940" expanded="true" signature="5740:5861" placeholder="{...}" />
+            <marker date="1489469305940" expanded="true" signature="5901:6022" placeholder="{...}" />
+            <marker date="1489469305940" expanded="true" signature="6051:6174" placeholder="{...}" />
+            <marker date="1489469305940" expanded="true" signature="6216:6339" placeholder="{...}" />
+            <marker date="1489469305940" expanded="true" signature="6365:6485" placeholder="{...}" />
+            <marker date="1489469305940" expanded="false" signature="6515:6526" placeholder=" { " />
+            <marker date="1489469305940" expanded="false" signature="6560:6566" placeholder=" }" />
+            <marker date="1489469305940" expanded="false" signature="6605:6616" placeholder=" { " />
+            <marker date="1489469305940" expanded="false" signature="6660:6666" placeholder=" }" />
+            <marker date="1489469305940" expanded="false" signature="6714:6725" placeholder=" { " />
+            <marker date="1489469305940" expanded="false" signature="6771:6777" placeholder=" }" />
+            <marker date="1489469305940" expanded="true" signature="6848:8292" placeholder="{...}" />
+            <marker date="1489469305940" expanded="true" signature="6890:6901" placeholder="{...}" />
+            <marker date="1489469305940" expanded="true" signature="6993:8286" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-test-impl/src/test/java/com/clpsz/test/sharding/test/example/SpringApplicationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44853738">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <marker date="1489459674830" expanded="true" signature="54:402" placeholder="..." />
+            <marker date="1489459674830" expanded="true" signature="404:445" placeholder="/**...*/" />
+            <marker date="1489459674830" expanded="true" signature="446:543" placeholder="@{...}" />
+            <marker date="1489459674830" expanded="false" signature="670:681" placeholder=" { " />
+            <marker date="1489459674830" expanded="false" signature="731:737" placeholder=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE.jar!/org/springframework/beans/factory/support/SimpleInstantiationStrategy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.69385475">
+          <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+          <folding>
+            <marker date="1489397947451" expanded="false" signature="0:104" placeholder="/.../" />
+            <marker date="1489397947451" expanded="false" signature="165:873" placeholder="..." />
+            <marker date="1489397947451" expanded="true" signature="1089:1096" placeholder="{...}" />
+            <marker date="1489397947451" expanded="false" signature="1157:1168" placeholder=" { " />
+            <marker date="1489397947451" expanded="false" signature="1219:1225" placeholder=" }" />
+            <marker date="1489397947451" expanded="true" signature="1316:2964" placeholder="{...}" />
+            <marker date="1489397947451" expanded="false" signature="2065:2177" placeholder="run() → {" />
+            <marker date="1489397947451" expanded="false" signature="2294:2329" placeholder="}" />
+            <marker date="1489397947451" expanded="true" signature="3077:3198" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="3332:3885" placeholder="{...}" />
+            <marker date="1489397947451" expanded="false" signature="3482:3548" placeholder="run() → {" />
+            <marker date="1489397947451" expanded="false" signature="3664:3687" placeholder="}" />
+            <marker date="1489397947451" expanded="true" signature="4035:4156" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="4311:6366" placeholder="{...}" />
+            <marker date="1489397947451" expanded="false" signature="4427:4493" placeholder="run() → {" />
+            <marker date="1489397947451" expanded="false" signature="4618:4641" placeholder="}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE.jar!/org/springframework/beans/factory/support/ConstructorResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43575418">
+          <caret line="468" column="0" selection-start-line="468" selection-start-column="0" selection-end-line="468" selection-end-column="0" />
+          <folding>
+            <marker date="1489397947451" expanded="false" signature="0:104" placeholder="/.../" />
+            <marker date="1489397947451" expanded="false" signature="165:2167" placeholder="..." />
+            <marker date="1489397947451" expanded="false" signature="2473:2484" placeholder=" { " />
+            <marker date="1489397947451" expanded="false" signature="2515:2521" placeholder=" }" />
+            <marker date="1489397947451" expanded="true" signature="2672:10300" placeholder="{...}" />
+            <marker date="1489397947451" expanded="false" signature="9528:9594" placeholder="run() → {" />
+            <marker date="1489397947451" expanded="false" signature="9801:9824" placeholder="}" />
+            <marker date="1489397947451" expanded="true" signature="10373:11650" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="11752:12181" placeholder="{...}" />
+            <marker date="1489397947451" expanded="false" signature="11845:11905" placeholder="run() → {" />
+            <marker date="1489397947451" expanded="false" signature="12047:12062" placeholder="}" />
+            <marker date="1489397947451" expanded="true" signature="12312:23124" placeholder="{...}" />
+            <marker date="1489397947451" expanded="false" signature="22215:22281" placeholder="run() → {" />
+            <marker date="1489397947451" expanded="false" signature="22503:22526" placeholder="}" />
+            <marker date="1489397947451" expanded="true" signature="23302:25689" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="25981:30055" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="30205:32191" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="32277:32687" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="32836:33392" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="33476:33741" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="33797:34532" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="33846:33857" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="33941:34526" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="34583:34644" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="34627:34638" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="34687:36799" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="34914:35077" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="35125:35252" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="35320:35632" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="35699:36185" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="36277:36793" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41005588">
+          <caret line="724" column="0" selection-start-line="724" selection-start-column="0" selection-end-line="724" selection-end-column="0" />
+          <folding>
+            <marker date="1489397947451" expanded="false" signature="0:104" placeholder="/.../" />
+            <marker date="1489397947451" expanded="false" signature="165:4228" placeholder="..." />
+            <marker date="1489397947451" expanded="true" signature="4905:5618" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="5697:5774" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="5862:5929" placeholder="{...}" />
+            <marker date="1489397947451" expanded="false" signature="5993:6004" placeholder=" { " />
+            <marker date="1489397947451" expanded="false" signature="6038:6044" placeholder=" }" />
+            <marker date="1489397947451" expanded="true" signature="6138:6209" placeholder="{...}" />
+            <marker date="1489397947451" expanded="false" signature="6277:6288" placeholder=" { " />
+            <marker date="1489397947451" expanded="false" signature="6324:6330" placeholder=" }" />
+            <marker date="1489397947451" expanded="true" signature="6408:6479" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="6575:6664" placeholder="{...}" />
+            <marker date="1489397947451" expanded="false" signature="6717:6728" placeholder=" { " />
+            <marker date="1489397947451" expanded="false" signature="6766:6772" placeholder=" }" />
+            <marker date="1489397947451" expanded="false" signature="6829:6840" placeholder=" { " />
+            <marker date="1489397947451" expanded="false" signature="6882:6888" placeholder=" }" />
+            <marker date="1489397947451" expanded="true" signature="6966:7598" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="7670:7939" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="7991:8385" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="8479:9324" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="9444:9554" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="9670:9882" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="9996:11023" placeholder="{...}" />
+            <marker date="1489397947451" expanded="false" signature="10461:10527" placeholder="run() → {" />
+            <marker date="1489397947451" expanded="false" signature="10714:10737" placeholder="}" />
+            <marker date="1489397947451" expanded="true" signature="11150:11671" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="11773:12064" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="12137:12230" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="12354:12779" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="12902:13326" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="13377:13507" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="13626:15027" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="15160:19382" placeholder="{...}" />
+            <marker date="1489397947451" expanded="false" signature="16621:16708" placeholder="getObject() → {" />
+            <marker date="1489397947451" expanded="false" signature="16832:16851" placeholder="}" />
+            <marker date="1489397947451" expanded="true" signature="19487:20426" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="20535:20987" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="21100:25934" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="26022:27531" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="27638:28541" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="27661:27745" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="27720:27735" placeholder="{...}" />
+            <marker date="1489397947451" expanded="false" signature="27902:27972" placeholder="doWith(method) → {" />
+            <marker date="1489397947451" expanded="false" signature="28419:28434" placeholder="}" />
+            <marker date="1489397947451" expanded="true" signature="28640:29418" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="29524:30747" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="30856:31904" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="32025:32461" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="32552:33271" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="33374:33938" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="34041:35617" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="35753:36472" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="36569:37436" placeholder="{...}" />
+            <marker date="1489397947451" expanded="false" signature="36713:36779" placeholder="run() → {" />
+            <marker date="1489397947451" expanded="false" signature="36963:36986" placeholder="}" />
+            <marker date="1489397947451" expanded="true" signature="37558:37672" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="37808:37919" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="38010:41285" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="41409:42368" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="42492:44582" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="44682:45314" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="45426:45993" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="46090:46515" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="46592:46807" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="46975:47769" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="47883:51463" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="51579:52001" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="52105:53182" placeholder="{...}" />
+            <marker date="1489397947451" expanded="false" signature="52199:52261" placeholder="run() → {" />
+            <marker date="1489397947451" expanded="false" signature="52403:52422" placeholder="}" />
+            <marker date="1489397947451" expanded="true" signature="53250:53718" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="53834:55191" placeholder="{...}" />
+            <marker date="1489397947451" expanded="false" signature="54312:54408" placeholder="run() → {" />
+            <marker date="1489397947451" expanded="false" signature="54545:54572" placeholder="}" />
+            <marker date="1489397947451" expanded="true" signature="55312:57535" placeholder="{...}" />
+            <marker date="1489397947451" expanded="false" signature="56380:56472" placeholder="run() → {" />
+            <marker date="1489397947451" expanded="false" signature="56594:56617" placeholder="}" />
+            <marker date="1489397947451" expanded="false" signature="56693:56789" placeholder="run() → {" />
+            <marker date="1489397947451" expanded="false" signature="56919:56946" placeholder="}" />
+            <marker date="1489397947451" expanded="true" signature="57623:57712" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="57766:57870" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="57961:58208" placeholder="{...}" />
+            <marker date="1489397947451" expanded="true" signature="58061:58122" placeholder="{...}" />
+            <marker date="1489397947451" expanded="false" signature="58165:58180" placeholder=" { " />
+            <marker date="1489397947451" expanded="false" signature="58192:58202" placeholder=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.2/mybatis-3.4.2.jar!/org/apache/ibatis/executor/statement/StatementHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15418994">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="33" />
+          <folding>
+            <marker date="1489457543826" expanded="false" signature="0:104" placeholder="/.../" />
+            <marker date="1489457543826" expanded="false" signature="160:453" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.3.0/mybatis-3.3.0.jar!/org/apache/ibatis/executor/statement/StatementHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.69385475">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <marker date="1468311309175" expanded="false" signature="0:104" placeholder="/.../" />
+            <marker date="1468311309175" expanded="true" signature="160:413" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-test-impl/src/test/java/com/clpsz/test/sharding/test/dao/SingleDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44853738">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <marker date="1489472574595" expanded="false" signature="50:451" placeholder="..." />
+            <marker date="1489472574595" expanded="true" signature="453:494" placeholder="/**...*/" />
+            <marker date="1489472574595" expanded="true" signature="495:592" placeholder="@{...}" />
+            <marker date="1489472574595" expanded="true" signature="722:912" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-test-dao/src/main/java/com/clpsz/test/sharding/pay_order/dao/PayOrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42686892">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="31" />
+          <folding>
+            <marker date="1489122363204" expanded="true" signature="145:306" placeholder="/**...*/" />
+            <marker date="1489122363204" expanded="true" signature="359:520" placeholder="/**...*/" />
+            <marker date="1489122363204" expanded="true" signature="559:720" placeholder="/**...*/" />
+            <marker date="1489122363204" expanded="true" signature="768:929" placeholder="/**...*/" />
+            <marker date="1489122363204" expanded="true" signature="987:1148" placeholder="/**...*/" />
+            <marker date="1489122363204" expanded="true" signature="1208:1369" placeholder="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-test-dao/src/main/resources/mappers/PersonMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.051627386">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <folding>
+            <marker date="1489460006606" expanded="true" signature="214:1558" placeholder="..." />
+            <marker date="1489460006606" expanded="true" signature="298:567" placeholder="..." />
+            <marker date="1489460006606" expanded="true" signature="309:427" placeholder="..." />
+            <marker date="1489460006606" expanded="true" signature="649:887" placeholder="..." />
+            <marker date="1489460006606" expanded="true" signature="660:778" placeholder="..." />
+            <marker date="1489460006606" expanded="true" signature="786:876" placeholder="insert into person... " />
+            <marker date="1489460006606" expanded="true" signature="978:1548" placeholder="..." />
+            <marker date="1489460006606" expanded="true" signature="989:1107" placeholder="..." />
+            <marker date="1489460006606" expanded="true" signature="1185:1312" placeholder="..." />
+            <marker date="1489460006606" expanded="true" signature="1217:1244" placeholder="..." />
+            <marker date="1489460006606" expanded="true" signature="1274:1300" placeholder="..." />
+            <marker date="1489460006606" expanded="true" signature="1372:1536" placeholder="..." />
+            <marker date="1489460006606" expanded="true" signature="1404:1448" placeholder="..." />
+            <marker date="1489460006606" expanded="true" signature="1478:1524" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-test-dao/src/main/resources/mappers/PayOrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44018584">
+          <caret line="52" column="36" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+          <folding>
+            <marker date="1489476097117" expanded="true" signature="221:7205" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="312:1282" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="323:441" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="1312:1598" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="1323:1441" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="1692:1966" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="1703:1821" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="1829:1955" placeholder="select from t_pay_order_0" />
+            <marker date="1489476097117" expanded="true" signature="2034:2262" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="2045:2163" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="2171:2251" placeholder="delete from " />
+            <marker date="1489476097117" expanded="true" signature="2310:3011" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="2321:2439" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="2447:3000" placeholder="insert into t_pay_order_0... " />
+            <marker date="1489476097117" expanded="true" signature="3068:5096" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="3079:3197" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="3280:4052" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="3318:3354" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="3397:3440" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="3470:3497" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="3530:3560" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="3593:3624" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="3658:3690" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="3725:3758" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="3795:3831" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="3865:3896" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="3933:3968" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="4005:4040" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="4112:5084" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="4150:4203" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="4246:4305" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="4335:4381" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="4414:4462" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="4495:4544" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="4578:4628" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="4663:4714" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="4751:4804" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="4838:4888" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="4925:4980" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="5017:5072" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="5165:6412" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="5176:5294" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="5302:6401" placeholder="update t_pay... " />
+            <marker date="1489476097117" expanded="true" signature="5329:6343" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="5373:5455" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="5485:5538" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="5571:5629" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="5662:5722" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="5756:5818" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="5853:5917" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="5954:6023" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="6057:6118" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="6155:6225" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="6262:6332" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="6472:7195" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="6483:6601" placeholder="..." />
+            <marker date="1489476097117" expanded="true" signature="6609:7184" placeholder="update t_pay... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-test-dao/src/main/java/com/clpsz/test/sharding/pay_order/domain/PayOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5980498">
+          <caret line="132" column="6" selection-start-line="132" selection-start-column="6" selection-end-line="132" selection-end-column="6" />
+          <folding>
+            <marker date="1489122363203" expanded="true" signature="103:277" placeholder="/**...*/" />
+            <marker date="1489122363203" expanded="true" signature="314:495" placeholder="/**...*/" />
+            <marker date="1489122363203" expanded="true" signature="538:703" placeholder="/**...*/" />
+            <marker date="1489122363203" expanded="true" signature="734:902" placeholder="/**...*/" />
+            <marker date="1489122363203" expanded="true" signature="933:1102" placeholder="/**...*/" />
+            <marker date="1489122363203" expanded="true" signature="1136:1306" placeholder="/**...*/" />
+            <marker date="1489122363203" expanded="true" signature="1341:1512" placeholder="/**...*/" />
+            <marker date="1489122363203" expanded="true" signature="1548:1722" placeholder="/**...*/" />
+            <marker date="1489122363203" expanded="true" signature="1759:1928" placeholder="/**...*/" />
+            <marker date="1489122363203" expanded="true" signature="1963:2136" placeholder="/**...*/" />
+            <marker date="1489122363203" expanded="true" signature="2171:2344" placeholder="/**...*/" />
+            <marker date="1489122363203" expanded="true" signature="2379:2624" placeholder="/**...*/" />
+            <marker date="1489122363203" expanded="false" signature="2658:2669" placeholder=" { " />
+            <marker date="1489122363203" expanded="false" signature="2687:2693" placeholder=" }" />
+            <marker date="1489122363203" expanded="true" signature="2699:2952" placeholder="/**...*/" />
+            <marker date="1489122363203" expanded="false" signature="3001:3012" placeholder=" { " />
+            <marker date="1489122363203" expanded="false" signature="3076:3082" placeholder=" }" />
+            <marker date="1489122363203" expanded="true" signature="3088:3347" placeholder="/**...*/" />
+            <marker date="1489122363203" expanded="false" signature="3387:3398" placeholder=" { " />
+            <marker date="1489122363203" expanded="false" signature="3422:3428" placeholder=" }" />
+            <marker date="1489122363203" expanded="true" signature="3434:3707" placeholder="/**...*/" />
+            <marker date="1489122363203" expanded="true" signature="3769:3867" placeholder="{...}" />
+            <marker date="1489122363203" expanded="true" signature="3873:4100" placeholder="/**...*/" />
+            <marker date="1489122363203" expanded="false" signature="4128:4139" placeholder=" { " />
+            <marker date="1489122363203" expanded="false" signature="4150:4156" placeholder=" }" />
+            <marker date="1489122363203" expanded="true" signature="4162:4390" placeholder="/**...*/" />
+            <marker date="1489122363203" expanded="false" signature="4426:4437" placeholder=" { " />
+            <marker date="1489122363203" expanded="false" signature="4452:4458" placeholder=" }" />
+            <marker date="1489122363203" expanded="true" signature="4464:4697" placeholder="/**...*/" />
+            <marker date="1489122363203" expanded="false" signature="4725:4736" placeholder=" { " />
+            <marker date="1489122363203" expanded="false" signature="4750:4756" placeholder=" }" />
+            <marker date="1489122363203" expanded="true" signature="4762:4999" placeholder="/**...*/" />
+            <marker date="1489122363203" expanded="false" signature="5038:5049" placeholder=" { " />
+            <marker date="1489122363203" expanded="false" signature="5070:5076" placeholder=" }" />
+            <marker date="1489122363203" expanded="true" signature="5082:5317" placeholder="/**...*/" />
+            <marker date="1489122363203" expanded="false" signature="5348:5359" placeholder=" { " />
+            <marker date="1489122363203" expanded="false" signature="5373:5379" placeholder=" }" />
+            <marker date="1489122363203" expanded="true" signature="5385:5624" placeholder="/**...*/" />
+            <marker date="1489122363203" expanded="false" signature="5666:5677" placeholder=" { " />
+            <marker date="1489122363203" expanded="false" signature="5698:5704" placeholder=" }" />
+            <marker date="1489122363203" expanded="true" signature="5710:5947" placeholder="/**...*/" />
+            <marker date="1489122363203" expanded="false" signature="5979:5990" placeholder=" { " />
+            <marker date="1489122363203" expanded="false" signature="6005:6011" placeholder=" }" />
+            <marker date="1489122363203" expanded="true" signature="6017:6259" placeholder="/**...*/" />
+            <marker date="1489122363203" expanded="false" signature="6303:6314" placeholder=" { " />
+            <marker date="1489122363203" expanded="false" signature="6337:6343" placeholder=" }" />
+            <marker date="1489122363203" expanded="true" signature="6349:6588" placeholder="/**...*/" />
+            <marker date="1489122363203" expanded="false" signature="6621:6632" placeholder=" { " />
+            <marker date="1489122363203" expanded="false" signature="6648:6654" placeholder=" }" />
+            <marker date="1489122363203" expanded="true" signature="6660:6905" placeholder="/**...*/" />
+            <marker date="1489122363203" expanded="false" signature="6951:6962" placeholder=" { " />
+            <marker date="1489122363203" expanded="false" signature="6987:6993" placeholder=" }" />
+            <marker date="1489122363203" expanded="true" signature="6999:7244" placeholder="/**...*/" />
+            <marker date="1489122363203" expanded="false" signature="7278:7289" placeholder=" { " />
+            <marker date="1489122363203" expanded="false" signature="7307:7313" placeholder=" }" />
+            <marker date="1489122363203" expanded="true" signature="7319:7572" placeholder="/**...*/" />
+            <marker date="1489122363203" expanded="false" signature="7621:7632" placeholder=" { " />
+            <marker date="1489122363203" expanded="false" signature="7696:7702" placeholder=" }" />
+            <marker date="1489122363203" expanded="true" signature="7708:7943" placeholder="/**...*/" />
+            <marker date="1489122363203" expanded="false" signature="7975:7986" placeholder=" { " />
+            <marker date="1489122363203" expanded="false" signature="8001:8007" placeholder=" }" />
+            <marker date="1489122363203" expanded="true" signature="8013:8253" placeholder="/**...*/" />
+            <marker date="1489122363203" expanded="false" signature="8297:8308" placeholder=" { " />
+            <marker date="1489122363203" expanded="false" signature="8331:8337" placeholder=" }" />
+            <marker date="1489122363203" expanded="true" signature="8343:8586" placeholder="/**...*/" />
+            <marker date="1489122363203" expanded="false" signature="8618:8629" placeholder=" { " />
+            <marker date="1489122363203" expanded="false" signature="8647:8653" placeholder=" }" />
+            <marker date="1489122363203" expanded="true" signature="8659:8910" placeholder="/**...*/" />
+            <marker date="1489122363203" expanded="false" signature="8957:8968" placeholder=" { " />
+            <marker date="1489122363203" expanded="false" signature="8997:9003" placeholder=" }" />
+            <marker date="1489122363203" expanded="true" signature="9009:9252" placeholder="/**...*/" />
+            <marker date="1489122363203" expanded="false" signature="9284:9295" placeholder=" { " />
+            <marker date="1489122363203" expanded="false" signature="9313:9319" placeholder=" }" />
+            <marker date="1489122363203" expanded="true" signature="9325:9576" placeholder="/**...*/" />
+            <marker date="1489122363203" expanded="false" signature="9623:9634" placeholder=" { " />
+            <marker date="1489122363203" expanded="false" signature="9663:9669" placeholder=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-test-dao/src/main/resources/sharding/mybatis-sharding-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10325477">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <marker date="1489477095252" expanded="true" signature="47:145" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-test-impl/src/main/java/com/clpsz/test/sharding/sqlparser/SelectSqlParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="7.027086">
+          <caret line="343" column="0" selection-start-line="343" selection-start-column="0" selection-end-line="343" selection-end-column="0" />
+          <folding>
+            <marker date="1489479701091" expanded="true" signature="95:2320" placeholder="..." />
+            <marker date="1489479701091" expanded="false" signature="2604:2615" placeholder=" { " />
+            <marker date="1489479701091" expanded="false" signature="2642:2648" placeholder=" }" />
+            <marker date="1489479701091" expanded="false" signature="2684:2695" placeholder=" { " />
+            <marker date="1489479701091" expanded="false" signature="2714:2720" placeholder=" }" />
+            <marker date="1489479701091" expanded="false" signature="2747:2758" placeholder=" { " />
+            <marker date="1489479701091" expanded="false" signature="2791:2797" placeholder=" }" />
+            <marker date="1489479701091" expanded="true" signature="2822:2955" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="3004:3440" placeholder="{...}" />
+            <marker date="1489479701091" expanded="false" signature="3476:3487" placeholder=" { " />
+            <marker date="1489479701091" expanded="false" signature="3510:3516" placeholder=" }" />
+            <marker date="1489479701091" expanded="false" signature="3560:3571" placeholder=" { " />
+            <marker date="1489479701091" expanded="false" signature="3610:3616" placeholder=" }" />
+            <marker date="1489479701091" expanded="false" signature="3658:3669" placeholder=" { " />
+            <marker date="1489479701091" expanded="false" signature="3706:3712" placeholder=" }" />
+            <marker date="1489479701091" expanded="false" signature="3764:3775" placeholder=" { " />
+            <marker date="1489479701091" expanded="false" signature="3817:3823" placeholder=" }" />
+            <marker date="1489479701091" expanded="true" signature="3864:4035" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="4079:4086" placeholder="{...}" />
+            <marker date="1489479701091" expanded="false" signature="4128:4139" placeholder=" { " />
+            <marker date="1489479701091" expanded="false" signature="4176:4182" placeholder=" }" />
+            <marker date="1489479701091" expanded="true" signature="4225:4232" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="4286:4293" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="4348:4355" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="4404:4411" placeholder="{...}" />
+            <marker date="1489479701091" expanded="false" signature="4453:4464" placeholder=" { " />
+            <marker date="1489479701091" expanded="false" signature="4501:4507" placeholder=" }" />
+            <marker date="1489479701091" expanded="true" signature="4550:4557" placeholder="{...}" />
+            <marker date="1489479701091" expanded="false" signature="4605:4616" placeholder=" { " />
+            <marker date="1489479701091" expanded="false" signature="4656:4662" placeholder=" }" />
+            <marker date="1489479701091" expanded="false" signature="4722:4733" placeholder=" { " />
+            <marker date="1489479701091" expanded="false" signature="4779:4785" placeholder=" }" />
+            <marker date="1489479701091" expanded="true" signature="4836:5216" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="5275:5282" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="5335:5342" placeholder="{...}" />
+            <marker date="1489479701091" expanded="false" signature="5396:5407" placeholder=" { " />
+            <marker date="1489479701091" expanded="false" signature="5450:5456" placeholder=" }" />
+            <marker date="1489479701091" expanded="false" signature="5514:5525" placeholder=" { " />
+            <marker date="1489479701091" expanded="false" signature="5576:5582" placeholder=" }" />
+            <marker date="1489479701091" expanded="true" signature="5627:5634" placeholder="{...}" />
+            <marker date="1489479701091" expanded="false" signature="5678:5689" placeholder=" { " />
+            <marker date="1489479701091" expanded="false" signature="5727:5733" placeholder=" }" />
+            <marker date="1489479701091" expanded="false" signature="5789:5800" placeholder=" { " />
+            <marker date="1489479701091" expanded="false" signature="5844:5850" placeholder=" }" />
+            <marker date="1489479701091" expanded="false" signature="5904:5915" placeholder=" { " />
+            <marker date="1489479701091" expanded="false" signature="5958:5964" placeholder=" }" />
+            <marker date="1489479701091" expanded="false" signature="6012:6023" placeholder=" { " />
+            <marker date="1489479701091" expanded="false" signature="6063:6069" placeholder=" }" />
+            <marker date="1489479701091" expanded="true" signature="6114:6121" placeholder="{...}" />
+            <marker date="1489479701091" expanded="false" signature="6171:6182" placeholder=" { " />
+            <marker date="1489479701091" expanded="false" signature="6223:6229" placeholder=" }" />
+            <marker date="1489479701091" expanded="false" signature="6277:6288" placeholder=" { " />
+            <marker date="1489479701091" expanded="false" signature="6329:6335" placeholder=" }" />
+            <marker date="1489479701091" expanded="false" signature="6383:6394" placeholder=" { " />
+            <marker date="1489479701091" expanded="false" signature="6434:6440" placeholder=" }" />
+            <marker date="1489479701091" expanded="true" signature="6515:6641" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="6696:6913" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="6958:6965" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="7020:7027" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="7072:7079" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="7134:7141" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="7188:7195" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="7268:7352" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="7425:7509" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="7550:7652" placeholder="{...}" />
+            <marker date="1489479701091" expanded="false" signature="7690:7701" placeholder=" { " />
+            <marker date="1489479701091" expanded="false" signature="7736:7742" placeholder=" }" />
+            <marker date="1489479701091" expanded="false" signature="7782:7793" placeholder=" { " />
+            <marker date="1489479701091" expanded="false" signature="7829:7835" placeholder=" }" />
+            <marker date="1489479701091" expanded="false" signature="7881:7892" placeholder=" { " />
+            <marker date="1489479701091" expanded="false" signature="7931:7937" placeholder=" }" />
+            <marker date="1489479701091" expanded="false" signature="7981:7992" placeholder=" { " />
+            <marker date="1489479701091" expanded="false" signature="8030:8036" placeholder=" }" />
+            <marker date="1489479701091" expanded="false" signature="8082:8093" placeholder=" { " />
+            <marker date="1489479701091" expanded="false" signature="8132:8138" placeholder=" }" />
+            <marker date="1489479701091" expanded="true" signature="8187:8194" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="8254:8261" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="8308:8315" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="8364:8371" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="8416:8423" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="8460:8467" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="8516:8523" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="8575:8582" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="8630:8637" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="8686:8693" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="8752:8759" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="8809:8816" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="8861:8868" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="8918:8925" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="8968:8975" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="9017:9024" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="9069:9076" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="9123:9130" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="9171:9178" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="9225:9232" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="9275:9282" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="9329:9337" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="9398:9406" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="9483:9491" placeholder="{...}" />
+            <marker date="1489479701091" expanded="true" signature="9544:9552" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-test-impl/src/main/java/com/clpsz/test/sharding/sqlparser/UpdateSqlParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24918744">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <marker date="1489479707118" expanded="true" signature="93:283" placeholder="..." />
+            <marker date="1489479707118" expanded="true" signature="498:509" placeholder=" { " />
+            <marker date="1489479707118" expanded="true" signature="536:542" placeholder=" }" />
+            <marker date="1489479707118" expanded="false" signature="578:589" placeholder=" { " />
+            <marker date="1489479707118" expanded="false" signature="608:614" placeholder=" }" />
+            <marker date="1489479707118" expanded="true" signature="639:775" placeholder="{...}" />
+            <marker date="1489479707118" expanded="true" signature="803:980" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-test-impl/src/main/java/com/clpsz/test/sharding/sqlparser/InsertSqlParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39869988">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <marker date="1489479733480" expanded="true" signature="51:241" placeholder="..." />
+            <marker date="1489479733480" expanded="false" signature="456:467" placeholder=" { " />
+            <marker date="1489479733480" expanded="false" signature="494:500" placeholder=" }" />
+            <marker date="1489479733480" expanded="false" signature="536:547" placeholder=" { " />
+            <marker date="1489479733480" expanded="false" signature="566:572" placeholder=" }" />
+            <marker date="1489479733480" expanded="true" signature="597:729" placeholder="{...}" />
+            <marker date="1489479733480" expanded="true" signature="757:934" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-test-impl/src/main/java/com/clpsz/test/sharding/sqlparser/DeleteSqlParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7475623">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <marker date="1489479766862" expanded="true" signature="51:241" placeholder="..." />
+            <marker date="1489479766862" expanded="false" signature="456:467" placeholder=" { " />
+            <marker date="1489479766862" expanded="false" signature="494:500" placeholder=" }" />
+            <marker date="1489479766862" expanded="false" signature="536:547" placeholder=" { " />
+            <marker date="1489479766862" expanded="false" signature="566:572" placeholder=" }" />
+            <marker date="1489479766862" expanded="true" signature="597:729" placeholder="{...}" />
+            <marker date="1489479766862" expanded="true" signature="757:934" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-test-impl/src/main/java/com/clpsz/test/sharding/SqlParserFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24918744">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <marker date="1489479783654" expanded="true" signature="41:482" placeholder="..." />
+            <marker date="1489479783654" expanded="true" signature="484:525" placeholder="/**...*/" />
+            <marker date="1489479783654" expanded="false" signature="753:764" placeholder=" { " />
+            <marker date="1489479783654" expanded="false" signature="780:786" placeholder=" }" />
+            <marker date="1489479783654" expanded="true" signature="818:825" placeholder="{...}" />
+            <marker date="1489479783654" expanded="true" signature="901:1967" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-test-impl/src/main/java/com/clpsz/test/sharding/sqlparser/SqlParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22426869">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <marker date="1489479237388" expanded="true" signature="51:106" placeholder="..." />
+            <marker date="1489479237388" expanded="true" signature="108:149" placeholder="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-test-impl/src/main/java/com/clpsz/test/sharding/PluginCommon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39869988">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <marker date="1489481477654" expanded="true" signature="41:95" placeholder="..." />
+            <marker date="1489481477654" expanded="true" signature="97:138" placeholder="/**...*/" />
+            <marker date="1489481477654" expanded="true" signature="274:281" placeholder="{...}" />
+            <marker date="1489481477654" expanded="true" signature="294:1107" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-test-impl/src/main/java/com/clpsz/test/sharding/ShardingStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1744312">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <marker date="1489477077288" expanded="true" signature="34:75" placeholder="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-test-impl/src/main/java/com/clpsz/test/sharding/config/MyBatisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60238355">
+          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+          <folding>
+            <marker date="1489483197951" expanded="true" signature="48:1014" placeholder="..." />
+            <marker date="1489483197951" expanded="true" signature="1016:1057" placeholder="/**...*/" />
+            <marker date="1489483197951" expanded="true" signature="1224:1351" placeholder="{...}" />
+            <marker date="1489483197951" expanded="true" signature="1451:2353" placeholder="{...}" />
+            <marker date="1489483197951" expanded="true" signature="2068:2081" placeholder="&lt;~&gt;" />
+            <marker date="1489483197951" expanded="true" signature="2426:2689" placeholder="{...}" />
+            <marker date="1489483197951" expanded="true" signature="2790:2835" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-test-impl/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53984284">
+          <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+          <folding>
+            <marker date="1489484061000" expanded="true" signature="89:3399" placeholder="..." />
+            <marker date="1489484061000" expanded="true" signature="273:411" placeholder="..." />
+            <marker date="1489484061000" expanded="true" signature="519:3386" placeholder="..." />
+            <marker date="1489484061000" expanded="true" signature="558:932" placeholder="..." />
+            <marker date="1489484061000" expanded="true" signature="723:910" placeholder="..." />
+            <marker date="1489484061000" expanded="true" signature="751:884" placeholder="..." />
+            <marker date="1489484061000" expanded="true" signature="954:1108" placeholder="..." />
+            <marker date="1489484061000" expanded="true" signature="1130:1278" placeholder="..." />
+            <marker date="1489484061000" expanded="true" signature="1300:1449" placeholder="..." />
+            <marker date="1489484061000" expanded="true" signature="1471:1631" placeholder="..." />
+            <marker date="1489484061000" expanded="true" signature="1653:1811" placeholder="..." />
+            <marker date="1489484061000" expanded="true" signature="1854:2024" placeholder="..." />
+            <marker date="1489484061000" expanded="true" signature="2045:2212" placeholder="..." />
+            <marker date="1489484061000" expanded="true" signature="2257:2404" placeholder="..." />
+            <marker date="1489484061000" expanded="true" signature="2425:2579" placeholder="..." />
+            <marker date="1489484061000" expanded="true" signature="2600:2755" placeholder="..." />
+            <marker date="1489484061000" expanded="true" signature="2796:2936" placeholder="..." />
+            <marker date="1489484061000" expanded="true" signature="2976:3175" placeholder="..." />
+            <marker date="1489484061000" expanded="true" signature="3196:3366" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-test-impl/src/test/java/com/clpsz/test/sharding/test/dao/ShardingDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33269963">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar!/org/apache/commons/lang3/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.064257026">
+          <caret line="635" column="25" selection-start-line="635" selection-start-column="25" selection-end-line="635" selection-end-column="25" />
+          <folding>
+            <marker date="1468311280209" expanded="false" signature="0:104" placeholder="/.../" />
+            <marker date="1468311280209" expanded="false" signature="148:601" placeholder="..." />
+            <marker date="1468311280209" expanded="true" signature="924:931" placeholder="{...}" />
+            <marker date="1468311280209" expanded="false" signature="983:994" placeholder=" { " />
+            <marker date="1468311280209" expanded="false" signature="1032:1038" placeholder=" }" />
+            <marker date="1468311280209" expanded="false" signature="1093:1104" placeholder=" { " />
+            <marker date="1468311280209" expanded="false" signature="1124:1130" placeholder=" }" />
+            <marker date="1468311280209" expanded="true" signature="1190:1579" placeholder="{...}" />
+            <marker date="1468311280209" expanded="false" signature="1639:1650" placeholder=" { " />
+            <marker date="1468311280209" expanded="false" signature="1674:1680" placeholder=" }" />
+            <marker date="1468311280209" expanded="true" signature="1733:2066" placeholder="{...}" />
+            <marker date="1468311280209" expanded="false" signature="2121:2132" placeholder=" { " />
+            <marker date="1468311280209" expanded="false" signature="2152:2158" placeholder=" }" />
+            <marker date="1468311280209" expanded="true" signature="2218:2607" placeholder="{...}" />
+            <marker date="1468311280209" expanded="false" signature="2667:2678" placeholder=" { " />
+            <marker date="1468311280209" expanded="false" signature="2702:2708" placeholder=" }" />
+            <marker date="1468311280209" expanded="false" signature="2751:2762" placeholder=" { " />
+            <marker date="1468311280209" expanded="false" signature="2797:2803" placeholder=" }" />
+            <marker date="1468311280209" expanded="true" signature="2853:2927" placeholder="{...}" />
+            <marker date="1468311280209" expanded="false" signature="2977:2988" placeholder=" { " />
+            <marker date="1468311280209" expanded="false" signature="3021:3027" placeholder=" }" />
+            <marker date="1468311280209" expanded="false" signature="3071:3082" placeholder=" { " />
+            <marker date="1468311280209" expanded="false" signature="3114:3120" placeholder=" }" />
+            <marker date="1468311280209" expanded="true" signature="3171:3343" placeholder="{...}" />
+            <marker date="1468311280209" expanded="false" signature="3394:3405" placeholder=" { " />
+            <marker date="1468311280209" expanded="false" signature="3452:3458" placeholder=" }" />
+            <marker date="1468311280209" expanded="true" signature="3522:3700" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="3769:4408" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="4475:5068" placeholder="{...}" />
+            <marker date="1468311280209" expanded="false" signature="5121:5132" placeholder=" { " />
+            <marker date="1468311280209" expanded="false" signature="5168:5174" placeholder=" }" />
+            <marker date="1468311280209" expanded="true" signature="5246:5582" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="5636:5941" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="6012:6244" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="6327:6522" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="6588:6673" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="6753:6845" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="6919:7023" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="7111:7222" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="7316:7386" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="7500:8350" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="8434:8494" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="8592:9287" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="9357:9457" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="9541:9637" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="9715:9834" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="9932:10001" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="10093:10208" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="10296:10407" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="10509:11189" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="11260:11353" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="11432:11544" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="11633:12048" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="12113:12438" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="12511:13354" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="13426:13532" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="13610:14577" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="14660:14769" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="14863:15355" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="15431:16183" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="16265:16976" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="17049:17187" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="17264:17369" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="17448:18383" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="18462:18570" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="18651:19257" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="19342:19920" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="19980:20282" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="20351:20986" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="21039:21140" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="21194:21307" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="21368:21690" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="21763:22080" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="22152:22418" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="22495:22710" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="22786:23101" placeholder="{...}" />
+            <marker date="1468311280209" expanded="false" signature="23168:23179" placeholder=" { " />
+            <marker date="1468311280209" expanded="false" signature="23218:23224" placeholder=" }" />
+            <marker date="1468311280209" expanded="true" signature="23307:23727" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="23813:24836" placeholder="{...}" />
+            <marker date="1468311280209" expanded="false" signature="24882:24893" placeholder=" { " />
+            <marker date="1468311280209" expanded="false" signature="24929:24935" placeholder=" }" />
+            <marker date="1468311280209" expanded="false" signature="25001:25012" placeholder=" { " />
+            <marker date="1468311280209" expanded="false" signature="25058:25064" placeholder=" }" />
+            <marker date="1468311280209" expanded="true" signature="25134:25201" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="25280:25348" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="25429:25507" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="25597:25676" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="25774:25851" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="25958:26036" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="26160:28164" placeholder="{...}" />
+            <marker date="1468311280209" expanded="false" signature="28227:28238" placeholder=" { " />
+            <marker date="1468311280209" expanded="false" signature="28286:28292" placeholder=" }" />
+            <marker date="1468311280209" expanded="true" signature="28376:28437" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="28538:29868" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="29955:30021" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="30117:30184" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="30297:34735" placeholder="{...}" />
+            <marker date="1468311280209" expanded="false" signature="34796:34807" placeholder=" { " />
+            <marker date="1468311280209" expanded="false" signature="34847:34853" placeholder=" }" />
+            <marker date="1468311280209" expanded="false" signature="34923:34934" placeholder=" { " />
+            <marker date="1468311280209" expanded="false" signature="34973:34979" placeholder=" }" />
+            <marker date="1468311280209" expanded="true" signature="35061:36320" placeholder="{...}" />
+            <marker date="1468311280209" expanded="false" signature="36370:36381" placeholder=" { " />
+            <marker date="1468311280209" expanded="false" signature="36427:36433" placeholder=" }" />
+            <marker date="1468311280209" expanded="true" signature="36497:36589" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="36651:36741" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="36802:36891" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="36954:37045" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="37107:37197" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="37259:37349" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="37412:37503" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="37567:37659" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="37753:38399" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="38491:39068" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="39159:39736" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="39828:40405" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="40498:41075" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="41167:41744" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="41838:42415" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="42508:43085" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="43151:43233" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="43329:44058" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="44128:44937" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="45009:45889" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="45959:46041" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="46113:46195" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="46251:46767" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="46833:46954" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="47030:47162" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="47226:47363" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="47437:47585" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="47646:47736" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="47795:48199" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="48292:48359" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="48450:48540" placeholder="{...}" />
+            <marker date="1468311280209" expanded="false" signature="48609:48620" placeholder=" { " />
+            <marker date="1468311280209" expanded="false" signature="48661:48667" placeholder=" }" />
+            <marker date="1468311280209" expanded="true" signature="48756:48824" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="48922:49990" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="50089:50169" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="50278:50431" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="50563:55111" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="55198:55275" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="55368:56346" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="56429:57213" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="57258:57816" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="57822:57840" placeholder="/**...*/" />
+            <marker date="1468311280209" expanded="false" signature="57917:57928" placeholder=" { " />
+            <marker date="1468311280209" expanded="false" signature="57961:57967" placeholder=" }" />
+            <marker date="1468311280209" expanded="true" signature="58011:58475" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="58533:59972" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="60048:60279" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="60334:60496" placeholder="{...}" />
+            <marker date="1468311280209" expanded="false" signature="60553:60564" placeholder=" { " />
+            <marker date="1468311280209" expanded="false" signature="60596:60602" placeholder=" }" />
+            <marker date="1468311280209" expanded="true" signature="60674:60930" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="61003:61960" placeholder="{...}" />
+            <marker date="1468311280209" expanded="false" signature="62016:62027" placeholder=" { " />
+            <marker date="1468311280209" expanded="false" signature="62058:62064" placeholder=" }" />
+            <marker date="1468311280209" expanded="true" signature="62135:62390" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="62462:63420" placeholder="{...}" />
+            <marker date="1468311280209" expanded="false" signature="63467:63478" placeholder=" { " />
+            <marker date="1468311280209" expanded="false" signature="63510:63516" placeholder=" }" />
+            <marker date="1468311280209" expanded="false" signature="63571:63582" placeholder=" { " />
+            <marker date="1468311280209" expanded="false" signature="63612:63618" placeholder=" }" />
+            <marker date="1468311280209" expanded="true" signature="63688:64096" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="64167:64652" placeholder="{...}" />
+            <marker date="1468311280209" expanded="false" signature="64700:64711" placeholder=" { " />
+            <marker date="1468311280209" expanded="false" signature="64753:64759" placeholder=" }" />
+            <marker date="1468311280209" expanded="false" signature="64822:64833" placeholder=" { " />
+            <marker date="1468311280209" expanded="false" signature="64881:64887" placeholder=" }" />
+            <marker date="1468311280209" expanded="false" signature="64935:64946" placeholder=" { " />
+            <marker date="1468311280209" expanded="false" signature="64988:64994" placeholder=" }" />
+            <marker date="1468311280209" expanded="false" signature="65057:65068" placeholder=" { " />
+            <marker date="1468311280209" expanded="false" signature="65116:65122" placeholder=" }" />
+            <marker date="1468311280209" expanded="true" signature="65172:65514" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="65566:65908" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="65956:66586" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="66659:66962" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="67026:67319" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="67372:67683" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="67741:68073" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="68133:68451" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="68516:68855" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="68917:69235" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="69290:69600" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="69660:69991" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="70049:70363" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="70423:70752" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="70812:71141" placeholder="{...}" />
+            <marker date="1468311280209" expanded="false" signature="71193:71204" placeholder=" { " />
+            <marker date="1468311280209" expanded="false" signature="71230:71236" placeholder=" }" />
+            <marker date="1468311280209" expanded="false" signature="71307:71318" placeholder=" { " />
+            <marker date="1468311280209" expanded="false" signature="71352:71358" placeholder=" }" />
+            <marker date="1468311280209" expanded="false" signature="71440:71451" placeholder=" { " />
+            <marker date="1468311280209" expanded="false" signature="71486:71492" placeholder=" }" />
+            <marker date="1468311280209" expanded="false" signature="71574:71585" placeholder=" { " />
+            <marker date="1468311280209" expanded="false" signature="71620:71626" placeholder=" }" />
+            <marker date="1468311280209" expanded="false" signature="71672:71683" placeholder=" { " />
+            <marker date="1468311280209" expanded="false" signature="71753:71759" placeholder=" }" />
+            <marker date="1468311280209" expanded="true" signature="71835:72069" placeholder="{...}" />
+            <marker date="1468311280209" expanded="false" signature="72132:72143" placeholder=" { " />
+            <marker date="1468311280209" expanded="false" signature="72179:72185" placeholder=" }" />
+            <marker date="1468311280209" expanded="true" signature="72261:73228" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="73311:74017" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="74081:74329" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="74407:74777" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="74840:76541" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="76600:76914" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="76993:78264" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="78358:80765" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="80856:81307" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="81382:82442" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="82537:83984" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="84096:84681" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="84762:85000" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="85085:85226" placeholder="{...}" />
+            <marker date="1468311280209" expanded="false" signature="85303:85314" placeholder=" { " />
+            <marker date="1468311280209" expanded="false" signature="85352:85358" placeholder=" }" />
+            <marker date="1468311280209" expanded="true" signature="85446:85499" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="85598:85800" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="85894:86366" placeholder="{...}" />
+            <marker date="1468311280209" expanded="false" signature="86441:86452" placeholder=" { " />
+            <marker date="1468311280209" expanded="false" signature="86488:86494" placeholder=" }" />
+            <marker date="1468311280209" expanded="true" signature="86580:86631" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="86728:87146" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="87200:88274" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="88366:88836" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="88959:89540" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="89642:89711" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="89823:89891" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="90015:90600" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="90703:90773" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="90886:90955" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="90961:90979" placeholder="/**...*/" />
+            <marker date="1468311280209" expanded="true" signature="91100:91218" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="91292:91383" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="91442:91526" placeholder="{...}" />
+            <marker date="1468311280209" expanded="true" signature="91587:91688" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-test-impl/src/main/java/com/clpsz/test/sharding/ShardPlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15779468">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <marker date="1489483436266" expanded="false" signature="41:533" placeholder="..." />
+            <marker date="1489483436266" expanded="true" signature="885:1122" placeholder="{...}" />
+            <marker date="1489483436266" expanded="true" signature="1192:2110" placeholder="{...}" />
+            <marker date="1489483436266" expanded="false" signature="2151:2162" placeholder=" { " />
+            <marker date="1489483436266" expanded="false" signature="2195:2201" placeholder=" }" />
+            <marker date="1489483436266" expanded="true" signature="2256:2263" placeholder="{...}" />
+            <marker date="1489483436266" expanded="false" signature="2325:2336" placeholder=" { " />
+            <marker date="1489483436266" expanded="false" signature="2364:2370" placeholder=" }" />
+            <marker date="1489483436266" expanded="true" signature="2402:2410" placeholder="{...}" />
+            <marker date="1489483436266" expanded="true" signature="2468:2646" placeholder="{...}" />
+            <marker date="1489483436266" expanded="true" signature="2729:4080" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharding-test-impl/src/main/java/com/clpsz/test/sharding/UidShardingStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22426869">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.38045976" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.38045976" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>sharding-test</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.38045976" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: commons-logging:commons-logging:1.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.38045976" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
