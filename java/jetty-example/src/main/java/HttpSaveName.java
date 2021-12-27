@@ -11,9 +11,8 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * @author clpsz
  */
-@SuppressWarnings("serial")
-public class HttpPost_SaveName extends HttpServlet {
-    public HttpPost_SaveName() {
+public class HttpSaveName extends HttpServlet {
+    public HttpSaveName() {
     }
 
     @Override
@@ -26,7 +25,7 @@ public class HttpPost_SaveName extends HttpServlet {
             JsonObject jsonObject = new JsonParser().parse(requestData).getAsJsonObject();
             String name = jsonObject.get("name").getAsString();
 
-            JettyServer.name = name;
+            Main.name = name;
 
             response.setStatus(HttpServletResponse.SC_OK);
 

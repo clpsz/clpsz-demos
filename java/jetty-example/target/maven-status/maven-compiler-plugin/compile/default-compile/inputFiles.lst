@@ -1,4 +1,5 @@
-/Users/clpsz/workspace/github/clpsz-demos/java/jetty-example/src/main/java/HttpPost_SaveName.java
+/Users/clpsz/workspace/github/clpsz-demos/java/jetty-example/src/main/java/HttpGetName.java
 /Users/clpsz/workspace/github/clpsz-demos/java/jetty-example/src/main/java/Main.java
-/Users/clpsz/workspace/github/clpsz-demos/java/jetty-example/src/main/java/JettyServer.java
-/Users/clpsz/workspace/github/clpsz-demos/java/jetty-example/src/main/java/HttpGet_GetName.java
+/Users/clpsz/workspace/github/clpsz-demos/java/jetty-example/src/main/java/HttpSaveName.java
+/Users/clpsz/workspace/github/clpsz-demos/java/jetty-example/src/main/java/exampleFromJettyProject/HttpGet_GetName.java
+/Users/clpsz/workspace/github/clpsz-demos/java/jetty-example/src/main/java/exampleFromJettyProject/Main.java

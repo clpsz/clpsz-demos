@@ -2,14 +2,17 @@ import com.google.gson.Gson;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.TimeUnit;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 
-@SuppressWarnings("serial")
-public class HttpGet_GetName extends HttpServlet {
-    public HttpGet_GetName() {
+/**
+ * @author clpsz
+ */
+public class HttpGetName extends HttpServlet {
+    public HttpGetName() {
     }
 
     @Override
@@ -19,7 +22,8 @@ public class HttpGet_GetName extends HttpServlet {
         Map<String, String> ret = new HashMap<>();
 
         try {
-            ret.put("name", JettyServer.name);
+            TimeUnit.SECONDS.sleep(10);
+            ret.put("name", Main.name);
             Gson gson = new Gson();
 
             output = gson.toJson(ret);
