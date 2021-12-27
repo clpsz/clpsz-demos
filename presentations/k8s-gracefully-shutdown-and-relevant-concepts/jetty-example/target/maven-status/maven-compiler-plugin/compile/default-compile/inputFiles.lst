@@ -1,5 +1,3 @@
-/Users/clpsz/workspace/github/clpsz-demos/java/jetty-example/src/main/java/HttpGetName.java
-/Users/clpsz/workspace/github/clpsz-demos/java/jetty-example/src/main/java/Main.java
-/Users/clpsz/workspace/github/clpsz-demos/java/jetty-example/src/main/java/HttpSaveName.java
-/Users/clpsz/workspace/github/clpsz-demos/java/jetty-example/src/main/java/exampleFromJettyProject/HttpGet_GetName.java
-/Users/clpsz/workspace/github/clpsz-demos/java/jetty-example/src/main/java/exampleFromJettyProject/Main.java
+/Users/clpsz/workspace/github/clpsz-demos/presentations/k8s-gracefully-shutdown-and-relevant-concepts/jetty-example/src/main/java/HttpSaveName.java
+/Users/clpsz/workspace/github/clpsz-demos/presentations/k8s-gracefully-shutdown-and-relevant-concepts/jetty-example/src/main/java/HttpGetName.java
+/Users/clpsz/workspace/github/clpsz-demos/presentations/k8s-gracefully-shutdown-and-relevant-concepts/jetty-example/src/main/java/Main.java

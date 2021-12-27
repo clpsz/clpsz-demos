@@ -30,6 +30,9 @@ public class Main {
         server.setHandler(stats);
         stats.setHandler(context);
 
+
+        server.setStopTimeout(30 * 1000);
+
         server.start();
 
         MySignalHandler mySignalHandler = new MySignalHandler();
