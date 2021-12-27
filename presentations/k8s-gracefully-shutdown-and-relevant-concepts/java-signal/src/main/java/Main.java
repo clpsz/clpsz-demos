@@ -10,8 +10,12 @@ public class Main {
         MySignalHandler mySignalHandler = new MySignalHandler();
 
         // 注册对指定信号的处理
-        Signal.handle(new Signal("TERM") ,mySignalHandler);    // kill or kill -15
-//        Signal.handle(new Signal("INT"), mySignalHandler);     // kill -2
+        // kill -1
+        Signal.handle(new Signal("HUP") ,mySignalHandler);
+        // kill -2
+        // Signal.handle(new Signal("INT"), mySignalHandler);
+        // kill or kill -15
+        Signal.handle(new Signal("TERM") ,mySignalHandler);
 
         System.out.println("[Thread:"+Thread.currentThread().getName() + "] is sleep" );
         while(true) {
@@ -44,7 +48,7 @@ class MySignalHandler implements SignalHandler {
         // 当前进程名
         String currentThreadName = Thread.currentThread().getName();
 
-        System.out.println("[Thread:"+currentThreadName + "] receved signal: " + name + " == kill -" + number);
+        System.out.println("[Thread:"+currentThreadName + "] received signal: " + name + " == kill -" + number);
         if(name.equals("TERM")){
             Main.quit = true;
         }
