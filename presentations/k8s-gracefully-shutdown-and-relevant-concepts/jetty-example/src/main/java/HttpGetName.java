@@ -23,7 +23,7 @@ public class HttpGetName extends HttpServlet {
 
         try {
             TimeUnit.SECONDS.sleep(10);
-            ret.put("name", Main.name);
+            ret.put("name", MainUseConnector.name);
             Gson gson = new Gson();
 
             output = gson.toJson(ret);

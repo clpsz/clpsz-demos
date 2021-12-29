@@ -11,9 +11,9 @@ import sun.misc.SignalHandler;
  * curl -X POST -d '{"name": "Peter Zuo"}' localhost:8080/test/SaveName
  * curl -X GET localhost:8080/test/GetName
  */
-public class Main {
+public class MainNormal {
 
-    private static final String SIGNAL_NAME = "TERM";
+    private static final String SIGNAL_NAME = "INT";
     public static Server server;
     public static String name = "Alan Turing";
 
@@ -37,7 +37,8 @@ public class Main {
 
         MySignalHandler mySignalHandler = new MySignalHandler();
         // kill -15
-        Signal.handle(new Signal(Main.SIGNAL_NAME), mySignalHandler);
+        Signal.handle(new Signal(MainNormal.SIGNAL_NAME), mySignalHandler);
+        System.out.println("started");
     }
 
     private static @SuppressWarnings("restriction")
@@ -55,9 +56,9 @@ public class Main {
             String currentThreadName = Thread.currentThread().getName();
 
             System.out.println("[Thread:" + currentThreadName + "] received signal: " + name + " == kill -" + number);
-            if (name.equals(Main.SIGNAL_NAME)) {
+            if (name.equals(MainNormal.SIGNAL_NAME)) {
                 try {
-                    Main.server.stop();
+                    MainNormal.server.stop();
                 } catch (Exception e) {
                     e.printStackTrace();
                 }

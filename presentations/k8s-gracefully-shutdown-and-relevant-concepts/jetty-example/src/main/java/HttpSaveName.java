@@ -25,7 +25,7 @@ public class HttpSaveName extends HttpServlet {
             JsonObject jsonObject = new JsonParser().parse(requestData).getAsJsonObject();
             String name = jsonObject.get("name").getAsString();
 
-            Main.name = name;
+            MainUseConnector.name = name;
 
             response.setStatus(HttpServletResponse.SC_OK);
 
