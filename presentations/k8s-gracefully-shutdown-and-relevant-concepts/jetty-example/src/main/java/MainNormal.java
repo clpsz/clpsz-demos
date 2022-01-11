@@ -13,12 +13,13 @@ import sun.misc.SignalHandler;
  */
 public class MainNormal {
 
-    private static final String SIGNAL_NAME = "INT";
+    private static final String SIGNAL_NAME = "TERM";
     public static Server server;
     public static String name = "Alan Turing";
 
     public static void main(String[] args) throws Exception {
 
+        System.out.println("starting MainNormal.");
         ServletContextHandler context = new ServletContextHandler(ServletContextHandler
                 .NO_SESSIONS);
         context.setContextPath("/test");

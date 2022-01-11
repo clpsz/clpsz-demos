@@ -17,13 +17,13 @@ import java.util.concurrent.TimeUnit;
  */
 public class MainUseConnector {
 
-    private static final String SIGNAL_NAME = "INT";
+    private static final String SIGNAL_NAME = "TERM";
     public static Server server;
     public static ServerConnector connector;
     public static String name = "Alan Turing";
 
     public static void main(String[] args) throws Exception {
-
+        System.out.println("starting MainUseConnector.");
         ServletContextHandler context = new ServletContextHandler(ServletContextHandler
                 .NO_SESSIONS);
         context.setContextPath("/test");

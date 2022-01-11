@@ -3,7 +3,7 @@
 compile and run
 ```shell
 mvn clean package -Dmaven.test.skip=true
-java -jar target/jetty-example-1.0-SNAPSHOT.jar
+java -jar target/jetty-example-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
 
 POST
