@@ -81,8 +81,8 @@ public class MainUseConnector {
             System.out.println("[Thread:" + currentThreadName + "] received signal: " + name + " == kill -" + number);
             if (name.equals(MainUseConnector.SIGNAL_NAME)) {
                 try {
-//                    MainUseConnector.server.stop();
-                    MainUseConnector.connector.close();
+                    MainUseConnector.server.stop();
+//                    MainUseConnector.connector.close();
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
