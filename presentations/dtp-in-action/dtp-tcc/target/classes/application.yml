@@ -1,0 +1,9 @@
+server:
+  port : 8081
+spring:
+  application:
+    name: mybatis-with-springboot
+
+logging:
+  level:
+    ROOT: DEBUG
