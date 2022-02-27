@@ -8,27 +8,23 @@ public enum TccStatus {
     /**
      *
      */
-    INIT("INIT", 0),
-    TO_CONFIRM("TO_CONFIRM", 1),
-    TO_CANCEL("TO_CANCEL", 2),
-    FINISHED("FINISHED", 10);
+    INIT("INIT", "INIT"),
+    TO_CONFIRM("TO_CONFIRM", "TO_CONFIRM"),
+    TO_CANCEL("TO_CANCEL", "TO_CANCEL"),
+    FINISHED("FINISHED", "FINISHED");
 
 
-    private final Integer val;
+    private final String val;
 
-    private final String desc;
+    private final String comment;
 
 
-    TccStatus(String desc, Integer val) {
+    TccStatus(String val, String comment) {
         this.val = val;
-        this.desc = desc;
+        this.comment = comment;
     }
 
-    public String getDesc() {
-        return this.desc;
-    }
-
-    public Integer getVal() {
+    public String getVal() {
         return this.val;
     }
 }

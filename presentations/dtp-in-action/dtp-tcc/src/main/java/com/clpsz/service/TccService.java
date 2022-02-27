@@ -1,13 +1,11 @@
 package com.clpsz.service;
 
 
-import com.clpsz.DruidDataSource;
+import com.clpsz.JDBCConnection;
 import com.clpsz.dao.TccDao;
 import com.clpsz.domain.Tcc;
 import com.clpsz.enums.TccStatus;
-import org.springframework.stereotype.Service;
 
-import javax.sql.DataSource;
 import java.sql.Connection;
 import java.sql.SQLException;
 
@@ -15,16 +13,13 @@ import java.sql.SQLException;
 /**
  * @author clpsz
  */
-@Service
 public class TccService {
 
     private final TccDao tccDao = new TccDao();
 
     public Long insertTcc() throws SQLException {
-        DataSource ds = DruidDataSource.druidDataSource.getItemDataSource();
-        Connection conn;
+        Connection conn = JDBCConnection.getItemConn();
 
-        conn = ds.getConnection();
         conn.setAutoCommit(false);
 
         try {
@@ -42,14 +37,12 @@ public class TccService {
     }
 
     public Integer updateTccFromInit(Long tccId, String tccStatus) throws SQLException {
-        DataSource ds = DruidDataSource.druidDataSource.getItemDataSource();
-        Connection conn;
+        Connection conn = JDBCConnection.getItemConn();
 
-        conn = ds.getConnection();
         conn.setAutoCommit(false);
         try {
             Tcc tcc = tccDao.selectByTccIdForUpdate(conn, tccId);
-            if (!tcc.getTccStatus().equals(TccStatus.INIT.getDesc())) {
+            if (!tcc.getTccStatus().equals(TccStatus.INIT.getVal())) {
                 throw new RuntimeException("expected tcc status is INIT, get %d " + tcc.getTccStatus());
             }
             Integer updated = tccDao.updateTccStatus(conn, tccId, tccStatus);
@@ -66,19 +59,17 @@ public class TccService {
     }
 
     public Integer updateTccToFinished(Long tccId) throws SQLException {
-        DataSource ds = DruidDataSource.druidDataSource.getItemDataSource();
-        Connection conn;
+        Connection conn = JDBCConnection.getItemConn();
 
-        conn = ds.getConnection();
         conn.setAutoCommit(false);
         try {
             Tcc tcc = tccDao.selectByTccIdForUpdate(conn, tccId);
-            boolean statusIsToConfirmOrToCancel = tcc.getTccStatus().equals(TccStatus.TO_CONFIRM.getDesc()) ||
-                    tcc.getTccStatus().equals(TccStatus.TO_CANCEL.getDesc());
+            boolean statusIsToConfirmOrToCancel = tcc.getTccStatus().equals(TccStatus.TO_CONFIRM.getVal()) ||
+                    tcc.getTccStatus().equals(TccStatus.TO_CANCEL.getVal());
             if (!statusIsToConfirmOrToCancel) {
                 throw new RuntimeException("expected tcc status is TO_CONFIRM or TO_CANCEL, get %d " + tcc.getTccStatus());
             }
-            Integer updated = tccDao.updateTccStatus(conn, tccId, TccStatus.FINISHED.getDesc());
+            Integer updated = tccDao.updateTccStatus(conn, tccId, TccStatus.FINISHED.getVal());
             conn.commit();
 
             return updated;

@@ -1,9 +1,7 @@
 package com.clpsz.dao;
 
 import com.clpsz.domain.ItemReserveStock;
-import com.clpsz.enums.ReserveStatus;
 import com.clpsz.util.TimeUtil;
-import org.springframework.stereotype.Repository;
 
 import java.sql.*;
 
@@ -11,7 +9,6 @@ import java.sql.*;
 /**
  * @author clpsz
  */
-@Repository
 public class ItemReserveStockDao {
     public Integer updateReserveStatus(Connection conn, Long irsId, String status) throws SQLException {
         Long ts = TimeUtil.getMillTimeStamp();
@@ -39,14 +36,14 @@ public class ItemReserveStockDao {
                 );
     }
 
-    public Long insertItemReserveStock(Connection conn, Long tccId, Long itemId, Long reserveStock) throws SQLException {
+    public Long insertItemReserveStock(Connection conn, Long tccId, Long itemId, Long reserveStock, String status) throws SQLException {
         String query = "insert into item_reserve_stock_table (tcc_id, item_id, reserve_stock, reserve_status, create_time, update_time) values" +
                 " (?, ?, ?, ?, ?, ?)";
         PreparedStatement prepStat = conn.prepareStatement(query, Statement.RETURN_GENERATED_KEYS);
         prepStat.setLong(1, tccId);
         prepStat.setLong(2, itemId);
         prepStat.setLong(3, reserveStock);
-        prepStat.setString(4, ReserveStatus.INIT.getDesc());
+        prepStat.setString(4, status);
 
         long ts = TimeUtil.getMillTimeStamp();
         prepStat.setLong(5, ts);

@@ -1,7 +1,6 @@
 package com.clpsz.dao;
 
 import com.clpsz.domain.Order;
-import com.clpsz.enums.OrderStatus;
 import com.clpsz.util.TimeUtil;
 
 import java.sql.*;
@@ -52,7 +51,7 @@ public class OrderDao {
                 );
     }
 
-    public Long insertOrder(Connection conn, Long tccId, Long itemId, Long itemCount, Long payedAmount) throws SQLException {
+    public Long insertOrder(Connection conn, Long tccId, Long itemId, Long itemCount, Long payedAmount, String status) throws SQLException {
         String query = "insert into order_table (tcc_id, item_id, item_count, payed_amount, order_status, create_time, update_time) values" +
                 " (?, ?, ?, ?, ?, ?, ?)";
         PreparedStatement prepStat = conn.prepareStatement(query, Statement.RETURN_GENERATED_KEYS);
@@ -60,7 +59,7 @@ public class OrderDao {
         prepStat.setLong(2, itemId);
         prepStat.setLong(3, itemCount);
         prepStat.setLong(4, payedAmount);
-        prepStat.setString(5, OrderStatus.INIT.getDesc());
+        prepStat.setString(5, status);
 
         long ts = TimeUtil.getMillTimeStamp();
         prepStat.setLong(6, ts);

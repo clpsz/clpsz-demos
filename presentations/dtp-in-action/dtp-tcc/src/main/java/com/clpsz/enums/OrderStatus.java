@@ -8,27 +8,23 @@ public enum OrderStatus {
     /**
      *
      */
-    INIT("INIT", 0),
-    NORMAL("NORMAL", 1),
-    CANCELED("CANCELED", 2),
-    FINISHED("FINISHED", 10);
+    INIT("INIT", "INIT"),
+    NORMAL("NORMAL", "NORMAL"),
+    CANCELED("CANCELED", "CANCELED"),
+    FINISHED("FINISHED", "FINISHED");
 
 
-    private final Integer val;
+    private final String val;
 
-    private final String desc;
+    private final String comment;
 
 
-    OrderStatus(String desc, Integer val) {
+    OrderStatus(String val, String comment) {
         this.val = val;
-        this.desc = desc;
+        this.comment = comment;
     }
 
-    public String getDesc() {
-        return this.desc;
-    }
-
-    public Integer getVal() {
+    public String getVal() {
         return this.val;
     }
 }

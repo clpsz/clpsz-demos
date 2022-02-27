@@ -47,7 +47,7 @@ CREATE TABLE `tcc_table`
   COLLATE = utf8_bin COMMENT ='tcc table';
 
 BEGIN;
-INSERT INTO item_reserve_stock_table (tcc_id, item_id, reserve_stock, reserve_status, create_time, update_time) values (1, 1, 1, 'INIT', 1645604905025, 1645604905025);
-INSERT INTO tcc_table (tcc_status, create_time, update_time) values ('INIT', 1645604905025, 1645604905025);
+-- INSERT INTO item_reserve_stock_table (tcc_id, item_id, reserve_stock, reserve_status, create_time, update_time) values (1, 1, 1, 'INIT', 1645604905025, 1645604905025);
+-- INSERT INTO tcc_table (tcc_status, create_time, update_time) values ('INIT', 1645604905025, 1645604905025);
 INSERT INTO item_table (title, price, stock, create_time, update_time) values ('Fancy Christmas Present', 99, 100, 1645604905025, 1645604905025);
 COMMIT;

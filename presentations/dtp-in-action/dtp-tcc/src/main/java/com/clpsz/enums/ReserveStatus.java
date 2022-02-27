@@ -1,8 +1,5 @@
 package com.clpsz.enums;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * @author clpsz
  */
@@ -11,26 +8,22 @@ public enum ReserveStatus {
     /**
      *
      */
-    INIT("INIT", 0),
-    CONFIRMED("CONFIRMED", 1),
-    CANCELED("CANCELED", 2);
+    INIT("INIT", "INIT"),
+    CONFIRMED("CONFIRMED", "CONFIRMED"),
+    CANCELED("CANCELED", "CANCELED");
 
 
-    private final Integer val;
+    private final String val;
 
-    private final String desc;
+    private final String comment;
 
 
-    ReserveStatus(String desc, Integer val) {
+    ReserveStatus(String val, String comment) {
         this.val = val;
-        this.desc = desc;
+        this.comment = comment;
     }
 
-    public String getDesc() {
-        return this.desc;
-    }
-
-    public Integer getVal() {
+    public String getVal() {
         return this.val;
     }
 }

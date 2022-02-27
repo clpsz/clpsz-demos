@@ -29,12 +29,12 @@ public class ShopController {
         Item item = itemService.getItemById(itemId);
         long payedAmount = itemCount * item.getPrice();
 
-        boolean tryReserveStockSuccess = itemStockService.tryReserveStock(tccId, itemId, itemCount);
         boolean tryCreateOrderSuccess = orderService.tryCreateOrder(tccId, itemId, itemCount, payedAmount);
+        boolean tryReserveStockSuccess = itemStockService.tryReserveStock(tccId, itemId, itemCount);
 
         Integer updated;
         if (tryReserveStockSuccess && tryCreateOrderSuccess) {
-            updated = tccService.updateTccFromInit(tccId, TccStatus.TO_CONFIRM.getDesc());
+            updated = tccService.updateTccFromInit(tccId, TccStatus.TO_CONFIRM.getVal());
             if (updated > 0) {
                 boolean itemConfirmSuccess = itemStockService.confirmReserveStock(tccId);
                 boolean orderConfirmSuccess = orderService.confirmCreateOrder(tccId);
@@ -43,7 +43,7 @@ public class ShopController {
                 }
             }
         } else {
-            updated = tccService.updateTccFromInit(tccId, TccStatus.TO_CANCEL.getDesc());
+            updated = tccService.updateTccFromInit(tccId, TccStatus.TO_CANCEL.getVal());
             if (updated > 0) {
                 boolean itemCancelSuccess = itemStockService.cancelReserveStock(tccId, itemId);
                 boolean orderCancelSuccess = orderService.cancelCreateOrder(tccId);

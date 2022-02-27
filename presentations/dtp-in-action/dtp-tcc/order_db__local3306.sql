@@ -20,6 +20,6 @@ CREATE TABLE `order_table`
   DEFAULT CHARSET = utf8
   COLLATE = utf8_bin COMMENT ='order table';
 
-BEGIN;
-INSERT INTO order_table (item_id, tcc_id, item_count, payed_amount, order_status, create_time, update_time) values (1, 1, 1, 99, 'INIT', 1645604905025, 1645604905025);
-COMMIT;
+-- BEGIN;
+-- INSERT INTO order_table (item_id, tcc_id, item_count, payed_amount, order_status, create_time, update_time) values (1, 1, 1, 99, 'INIT', 1645604905025, 1645604905025);
+-- COMMIT;

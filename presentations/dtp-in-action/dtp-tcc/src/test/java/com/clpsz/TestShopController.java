@@ -9,9 +9,18 @@ public class TestShopController {
 
 
     @Test
-    public void testPlaceOrder() {
+    public void testPlaceOrderSucceed() {
         try {
             shopService.placeOrder(1L, 100L);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void testPlaceOrderFail() {
+        try {
+            shopService.placeOrder(1L, 200L);
         } catch (SQLException e) {
             e.printStackTrace();
         }

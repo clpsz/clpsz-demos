@@ -1,11 +1,8 @@
 package com.clpsz.dao;
 
-import com.clpsz.domain.ItemReserveStock;
 import com.clpsz.domain.Tcc;
-import com.clpsz.enums.ReserveStatus;
 import com.clpsz.enums.TccStatus;
 import com.clpsz.util.TimeUtil;
-import org.springframework.stereotype.Repository;
 
 import java.sql.*;
 
@@ -13,7 +10,6 @@ import java.sql.*;
 /**
  * @author clpsz
  */
-@Repository
 public class TccDao {
 
     public Tcc selectByTccIdForUpdate(Connection conn, Long tccId) throws SQLException {
@@ -36,7 +32,7 @@ public class TccDao {
         String query = "insert into tcc_table (tcc_status, create_time, update_time) values" +
                 " (?, ?, ?)";
         PreparedStatement prepStat = conn.prepareStatement(query, Statement.RETURN_GENERATED_KEYS);
-        prepStat.setString(1, TccStatus.INIT.getDesc());
+        prepStat.setString(1, TccStatus.INIT.getVal());
 
         long ts = TimeUtil.getMillTimeStamp();
         prepStat.setLong(2, ts);

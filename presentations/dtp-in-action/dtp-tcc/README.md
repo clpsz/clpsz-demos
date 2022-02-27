@@ -1,15 +1,17 @@
-## example
+# example
 
-mybatis and springboot
+DTP by TCC
 
-## steps
+## start MySQL
+```shell
+docker run --rm -d --name order_db -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 mysql:5.7
+docker run --rm -d --name item_db -e MYSQL_ROOT_PASSWORD=root -p 3307:3306 mysql:5.7
+```
 
-1. start mysql instance at 127.0.0.1:3306, username=root, password=root
-2. start mysql instance at 127.0.0.1:3307, username=root, password=root
-3. connect 3306 database, run order_db__local3306.sql script
-4. connect 3307 database, run item_db__local3307.sql script
-5. start application
-6. execute curl "localhost:8081/order?id=1"
-7. execute curl "localhost:8081/item?id=1"
-8. execute curl "localhost:8081/itemReserveStock?id=1"
-9. execute curl "localhost:8081/tcc?id=1"
+```shell
+export MYSQL_PWD=root; mysql -h127.0.0.1 -P3306 -uroot < order_db__local3306.sql
+export MYSQL_PWD=root; mysql -h127.0.0.1 -P3307 -uroot < item_db__local3307.sql
+```
+
+## run test case
+
