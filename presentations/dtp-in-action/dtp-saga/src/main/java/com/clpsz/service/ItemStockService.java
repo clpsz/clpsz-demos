@@ -94,6 +94,7 @@ public class ItemStockService {
                     throw new RuntimeException("confirmed, can not cancel");
                 }
             } else { // cancel reaches before try
+                itemReserveStockDao.insertItemReserveStock(conn, sagaId, itemId, 0L, ReserveStatus.CANCELED.getVal());
                 conn.commit();
                 return true;
             }
