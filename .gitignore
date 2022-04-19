@@ -41,3 +41,5 @@ out/
 *.class
 *.jar
 
+# log
+*.log
