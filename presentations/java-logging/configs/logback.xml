@@ -1,0 +1,35 @@
+<configuration scan="true" scanPeriod="5 seconds" debug="false">
+  <jmxConfigurator />
+
+  <!-- <statusListener class="ch.qos.logback.core.status.OnConsoleStatusListener" /> -->
+
+  <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+    <file>my-app__logback.log</file>
+
+    <encoder>
+      <pattern>logback: %date %level [%thread] %logger{10} [%file:%line] %msg%n</pattern>
+      <outputPatternAsHeader>true</outputPatternAsHeader>
+    </encoder>
+  </appender>
+
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <pattern>logback: ${HOSTNAME} %msg%n</pattern>
+    </encoder>
+  </appender>
+
+
+  <appender name="ASYNC-WRAPPER" class="ch.qos.logback.classic.AsyncAppender">
+    <appender-ref ref="FILE" />
+    <!-- <queueSize>10240</queueSize> -->
+    <includeCallerData>true</includeCallerData>
+    <discardingThreshold>0</discardingThreshold>
+  </appender>
+
+
+  <root level="INFO">
+    <appender-ref ref="ASYNC-WRAPPER" />
+    <appender-ref ref="STDOUT" />
+  </root>
+
+</configuration>
